@@ -1,2 +1,2 @@
-# PIC16f1827_Config.X
-Configuration for PIC16f1827 uController
+# PIC16f1827_MPU9250.X
+PIC16f1827 with MPU9250 IMU.
