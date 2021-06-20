@@ -542,8 +542,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U _TMR4_Initialize ]
 [f ]
 "69
-[; ;mcc_generated_files/tmr4.c: 69:     PR4 = 0xF3;
-[e = _PR4 -> -> 243 `i `uc ]
+[; ;mcc_generated_files/tmr4.c: 69:     PR4 = 0x0B;
+[e = _PR4 -> -> 11 `i `uc ]
 "72
 [; ;mcc_generated_files/tmr4.c: 72:     TMR4 = 0x00;
 [e = _TMR4 -> -> 0 `i `uc ]

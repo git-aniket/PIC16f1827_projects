@@ -4659,11 +4659,11 @@ void WDT_Initialize(void);
 # 45 "main.c" 2
 # 54 "main.c"
 static uint32_t waiting_time=15;
-static uint32_t counter=0;
-static _Bool time_elapsed=0;
+static volatile uint32_t counter=0;
+static volatile _Bool time_elapsed=0;
 
 
-void toggle_LED(void)
+void update_counter(void)
 {
     LATAbits.LATA1^=1;
     counter=(counter+1)%waiting_time;
@@ -4680,7 +4680,7 @@ void main(void)
     SYSTEM_Initialize();
     TMR1_StartTimer();
 
-    TMR1_SetInterruptHandler(toggle_LED);
+    TMR1_SetInterruptHandler(update_counter);
 
 
 

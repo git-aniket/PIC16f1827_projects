@@ -11,42 +11,42 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$/tmp/xcXHALOKP.o
+$/tmp/xcXBGjIgc.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 28 28 2 2
 config CONFIG 4 8007 8007 2 2
 $dist/default/production/PIC16f1827_Config.X.production.o
 cinit CODE 0 2A 2A 1C 2
-text1 CODE 0 1D3 1D3 3 2
-text2 CODE 0 102 102 19 2
-text3 CODE 0 1CF 1CF 4 2
-text4 CODE 0 161 161 14 2
-text5 CODE 0 1BF 1BF 6 2
-text6 CODE 0 1AA 1AA 8 2
-text7 CODE 0 11B 11B 19 2
-text8 CODE 0 1C5 1C5 6 2
-text9 CODE 0 134 134 17 2
+text1 CODE 0 1D5 1D5 3 2
+text2 CODE 0 104 104 19 2
+text3 CODE 0 1D1 1D1 4 2
+text4 CODE 0 163 163 14 2
+text5 CODE 0 1C1 1C1 6 2
+text6 CODE 0 1AC 1AC 8 2
+text7 CODE 0 11D 11D 19 2
+text8 CODE 0 1C7 1C7 6 2
+text9 CODE 0 136 136 17 2
 nvCOMMON COMMON 1 7B 7B 2 1
-text10 CODE 0 1B2 1B2 7 2
-text11 CODE 0 1A1 1A1 9 2
-text12 CODE 0 194 194 D 2
-text14 CODE 0 186 186 E 2
-text15 CODE 0 1D6 1D6 1 2
-text16 CODE 0 14B 14B 16 2
-text17 CODE 0 1D7 1D7 1 2
-text18 CODE 0 90 90 38 2
+text10 CODE 0 1B4 1B4 7 2
+text11 CODE 0 1A3 1A3 9 2
+text12 CODE 0 196 196 D 2
+text14 CODE 0 188 188 E 2
+text15 CODE 0 1D8 1D8 1 2
+text16 CODE 0 14D 14D 16 2
+text17 CODE 0 1D9 1D9 1 2
+text18 CODE 0 90 90 3A 2
 text19 CODE 0 46 46 4A 2
-text20 CODE 0 175 175 11 2
+text20 CODE 0 177 177 11 2
 nvBANK0 BANK0 1 42 42 4 1
-maintext CODE 0 E8 E8 1A 2
+maintext CODE 0 EA EA 1A 2
 cstackCOMMON COMMON 1 70 70 B 1
 cstackBANK0 BANK0 1 4A 4A 2 1
-stringtext1 STRCODE 0 C8 C8 20 2
+stringtext1 STRCODE 0 CA CA 20 2
 intentry CODE 0 4 4 24 2
 bssBANK0 BANK0 1 20 20 22 1
-idataBANK0 CODE 0 1CB 1CB 4 2
+idataBANK0 CODE 0 1CD 1CD 4 2
 dataBANK0 BANK0 1 46 46 4 1
-clrtext CODE 0 1B9 1B9 6 2
+clrtext CODE 0 1BB 1BB 6 2
 config CONFIG 4 8007 8007 2 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -65,9 +65,9 @@ BANK2 120-16F 1
 BANK3 1A0-1EF 1
 BANK4 220-24F 1
 CONST 2-3 2
-CONST 1D8-FFF 2
+CONST 1DA-FFF 2
 ENTRY 2-3 2
-ENTRY 1D8-FFF 2
+ENTRY 1DA-FFF 2
 IDLOC 8000-8003 2
 SFR10 500-56F 1
 SFR11 580-5EF 1
@@ -93,7 +93,7 @@ SFR30 F00-F6F 1
 SFR31 F80-FEF 1
 STACK 202C-216F 1
 CODE 2-3 2
-CODE 1D8-FFF 2
+CODE 1DA-FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
 SFR2 100-11F 1
@@ -108,9 +108,9 @@ BIGRAM 2000-216F 1
 COMMON 7D-7D 1
 EEDATA F000-F0FF 2
 STRCODE 2-3 2
-STRCODE 1D8-FFF 2
+STRCODE 1DA-FFF 2
 STRING 2-3 2
-STRING 1D8-FFF 2
+STRING 1DA-FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -125,46 +125,46 @@ STRING 1D8-FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production/PIC16f1827_Config.X.production.o
-2A cinit CODE >3582:/tmp/xcXNPcBjM.s
-2A cinit CODE >3585:/tmp/xcXNPcBjM.s
-2A cinit CODE >3611:/tmp/xcXNPcBjM.s
-2D cinit CODE >3612:/tmp/xcXNPcBjM.s
-2E cinit CODE >3613:/tmp/xcXNPcBjM.s
-31 cinit CODE >3614:/tmp/xcXNPcBjM.s
-32 cinit CODE >3615:/tmp/xcXNPcBjM.s
-35 cinit CODE >3616:/tmp/xcXNPcBjM.s
-36 cinit CODE >3617:/tmp/xcXNPcBjM.s
-39 cinit CODE >3618:/tmp/xcXNPcBjM.s
-3A cinit CODE >3635:/tmp/xcXNPcBjM.s
-3B cinit CODE >3636:/tmp/xcXNPcBjM.s
-3C cinit CODE >3637:/tmp/xcXNPcBjM.s
-3D cinit CODE >3638:/tmp/xcXNPcBjM.s
-3E cinit CODE >3639:/tmp/xcXNPcBjM.s
-3F cinit CODE >3640:/tmp/xcXNPcBjM.s
-42 cinit CODE >3646:/tmp/xcXNPcBjM.s
-42 cinit CODE >3648:/tmp/xcXNPcBjM.s
-43 cinit CODE >3649:/tmp/xcXNPcBjM.s
-44 cinit CODE >3650:/tmp/xcXNPcBjM.s
-4 intentry CODE >52:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
-6 intentry CODE >55:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
-A intentry CODE >57:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
-14 intentry CODE >59:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
-17 intentry CODE >60:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
-18 intentry CODE >61:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
-22 intentry CODE >63:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
-25 intentry CODE >64:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
-26 intentry CODE >68:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
-26 intentry CODE >74:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
-175 text20 CODE >120:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-175 text20 CODE >122:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-17A text20 CODE >125:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-17B text20 CODE >128:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-17D text20 CODE >129:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-17F text20 CODE >132:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-180 text20 CODE >133:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-181 text20 CODE >137:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-183 text20 CODE >138:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-185 text20 CODE >140:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+2A cinit CODE >3582:/tmp/xcXKBLBLi.s
+2A cinit CODE >3585:/tmp/xcXKBLBLi.s
+2A cinit CODE >3611:/tmp/xcXKBLBLi.s
+2D cinit CODE >3612:/tmp/xcXKBLBLi.s
+2E cinit CODE >3613:/tmp/xcXKBLBLi.s
+31 cinit CODE >3614:/tmp/xcXKBLBLi.s
+32 cinit CODE >3615:/tmp/xcXKBLBLi.s
+35 cinit CODE >3616:/tmp/xcXKBLBLi.s
+36 cinit CODE >3617:/tmp/xcXKBLBLi.s
+39 cinit CODE >3618:/tmp/xcXKBLBLi.s
+3A cinit CODE >3635:/tmp/xcXKBLBLi.s
+3B cinit CODE >3636:/tmp/xcXKBLBLi.s
+3C cinit CODE >3637:/tmp/xcXKBLBLi.s
+3D cinit CODE >3638:/tmp/xcXKBLBLi.s
+3E cinit CODE >3639:/tmp/xcXKBLBLi.s
+3F cinit CODE >3640:/tmp/xcXKBLBLi.s
+42 cinit CODE >3646:/tmp/xcXKBLBLi.s
+42 cinit CODE >3648:/tmp/xcXKBLBLi.s
+43 cinit CODE >3649:/tmp/xcXKBLBLi.s
+44 cinit CODE >3650:/tmp/xcXKBLBLi.s
+4 intentry CODE >52:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
+6 intentry CODE >55:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
+A intentry CODE >57:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
+14 intentry CODE >59:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
+17 intentry CODE >60:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
+18 intentry CODE >61:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
+22 intentry CODE >63:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
+25 intentry CODE >64:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
+26 intentry CODE >68:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
+26 intentry CODE >74:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
+177 text20 CODE >120:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+177 text20 CODE >122:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+17C text20 CODE >125:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+17D text20 CODE >128:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+17F text20 CODE >129:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+181 text20 CODE >132:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+182 text20 CODE >133:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+183 text20 CODE >137:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+185 text20 CODE >138:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+187 text20 CODE >140:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
 46 text19 CODE >5:/opt/microchip/xc8/v2.32/pic/sources/c99/common/llmod.c
 46 text19 CODE >12:/opt/microchip/xc8/v2.32/pic/sources/c99/common/llmod.c
 4A text19 CODE >12:/opt/microchip/xc8/v2.32/pic/sources/c99/common/llmod.c
@@ -183,124 +183,124 @@ A intentry CODE >57:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_gen
 81 text19 CODE >22:/opt/microchip/xc8/v2.32/pic/sources/c99/common/llmod.c
 87 text19 CODE >24:/opt/microchip/xc8/v2.32/pic/sources/c99/common/llmod.c
 8F text19 CODE >25:/opt/microchip/xc8/v2.32/pic/sources/c99/common/llmod.c
-90 text18 CODE >59:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-90 text18 CODE >61:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-9C text18 CODE >62:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-BD text18 CODE >63:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-C1 text18 CODE >63:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-C5 text18 CODE >64:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-C7 text18 CODE >65:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-1D7 text17 CODE >175:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-1D7 text17 CODE >178:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-14B text16 CODE >157:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-14B text16 CODE >161:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-14D text16 CODE >162:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-154 text16 CODE >164:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-15B text16 CODE >166:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-160 text16 CODE >168:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-1D6 text15 CODE >136:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-1D6 text15 CODE >139:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-186 text14 CODE >119:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-186 text14 CODE >123:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-188 text14 CODE >125:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-18E text14 CODE >127:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-193 text14 CODE >129:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-194 text12 CODE >64:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
-194 text12 CODE >69:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
-197 text12 CODE >72:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
-198 text12 CODE >75:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
-19A text12 CODE >78:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
-19C text12 CODE >81:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
-19D text12 CODE >84:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
-19E text12 CODE >87:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
-1A0 text12 CODE >88:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
-1A1 text11 CODE >167:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
-1A1 text11 CODE >169:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
-1A3 text11 CODE >170:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
-1A5 text11 CODE >171:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
-1A6 text11 CODE >172:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
-1A8 text11 CODE >173:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
-1A9 text11 CODE >174:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
-1B2 text10 CODE >63:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-1B2 text10 CODE >66:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-1B5 text10 CODE >68:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-1B6 text10 CODE >70:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-1B8 text10 CODE >71:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-134 text9 CODE >55:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-134 text9 CODE >60:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-137 text9 CODE >61:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-138 text9 CODE >66:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-13B text9 CODE >67:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-13D text9 CODE >72:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-140 text9 CODE >73:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-142 text9 CODE >78:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-144 text9 CODE >79:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-145 text9 CODE >80:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-147 text9 CODE >86:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-149 text9 CODE >87:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-14A text9 CODE >94:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
-1C5 text8 CODE >171:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-1C5 text8 CODE >172:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-1CA text8 CODE >173:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-11B text7 CODE >64:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-11B text7 CODE >69:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-11D text7 CODE >72:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-11F text7 CODE >75:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-121 text7 CODE >78:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-122 text7 CODE >81:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-126 text7 CODE >84:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-128 text7 CODE >87:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-130 text7 CODE >90:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-133 text7 CODE >91:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-1AA text6 CODE >62:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
-1AA text6 CODE >67:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
-1AD text6 CODE >70:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
-1AE text6 CODE >73:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
-1AF text6 CODE >76:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
-1B1 text6 CODE >77:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
-1BF text5 CODE >132:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-1BF text5 CODE >133:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-1C4 text5 CODE >134:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-161 text4 CODE >64:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-161 text4 CODE >69:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-164 text4 CODE >72:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-165 text4 CODE >75:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-167 text4 CODE >78:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-169 text4 CODE >81:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-171 text4 CODE >84:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-174 text4 CODE >85:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
-1CF text3 CODE >73:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-1CF text3 CODE >76:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-1D2 text3 CODE >77:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-102 text2 CODE >50:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-102 text2 CODE >53:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-105 text2 CODE >54:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-108 text2 CODE >55:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-10B text2 CODE >56:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-10E text2 CODE >57:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-111 text2 CODE >58:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-114 text2 CODE >59:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-117 text2 CODE >60:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-11A text2 CODE >61:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
-1D3 text1 CODE >93:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-1D3 text1 CODE >96:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-1D5 text1 CODE >97:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
-E8 maintext CODE >70:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-E8 maintext CODE >73:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-EB maintext CODE >74:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-EE maintext CODE >76:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-F6 maintext CODE >83:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-F7 maintext CODE >86:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-F8 maintext CODE >98:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-FE maintext CODE >100:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-1B9 clrtext CODE >3624:/tmp/xcXNPcBjM.s
-1B9 clrtext CODE >3625:/tmp/xcXNPcBjM.s
-1BA clrtext CODE >3626:/tmp/xcXNPcBjM.s
-1BA clrtext CODE >3627:/tmp/xcXNPcBjM.s
-1BB clrtext CODE >3628:/tmp/xcXNPcBjM.s
-1BC clrtext CODE >3629:/tmp/xcXNPcBjM.s
-1BD clrtext CODE >3630:/tmp/xcXNPcBjM.s
-1BE clrtext CODE >3631:/tmp/xcXNPcBjM.s
+90 text18 CODE >59:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+90 text18 CODE >61:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+9C text18 CODE >62:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+BD text18 CODE >63:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+C1 text18 CODE >63:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+C5 text18 CODE >64:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+C9 text18 CODE >65:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+1D9 text17 CODE >175:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+1D9 text17 CODE >178:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+14D text16 CODE >157:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+14D text16 CODE >161:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+14F text16 CODE >162:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+156 text16 CODE >164:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+15D text16 CODE >166:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+162 text16 CODE >168:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+1D8 text15 CODE >136:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+1D8 text15 CODE >139:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+188 text14 CODE >119:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+188 text14 CODE >123:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+18A text14 CODE >125:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+190 text14 CODE >127:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+195 text14 CODE >129:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+196 text12 CODE >64:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
+196 text12 CODE >69:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
+199 text12 CODE >72:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
+19A text12 CODE >75:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
+19C text12 CODE >78:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
+19E text12 CODE >81:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
+19F text12 CODE >84:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
+1A0 text12 CODE >87:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
+1A2 text12 CODE >88:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
+1A3 text11 CODE >167:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
+1A3 text11 CODE >169:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
+1A5 text11 CODE >170:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
+1A7 text11 CODE >171:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
+1A8 text11 CODE >172:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
+1AA text11 CODE >173:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
+1AB text11 CODE >174:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
+1B4 text10 CODE >63:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+1B4 text10 CODE >66:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+1B7 text10 CODE >68:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+1B8 text10 CODE >70:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+1BA text10 CODE >71:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+136 text9 CODE >55:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+136 text9 CODE >60:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+139 text9 CODE >61:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+13A text9 CODE >66:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+13D text9 CODE >67:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+13F text9 CODE >72:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+142 text9 CODE >73:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+144 text9 CODE >78:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+146 text9 CODE >79:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+147 text9 CODE >80:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+149 text9 CODE >86:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+14B text9 CODE >87:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+14C text9 CODE >94:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+1C7 text8 CODE >171:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+1C7 text8 CODE >172:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+1CC text8 CODE >173:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+11D text7 CODE >64:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+11D text7 CODE >69:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+11F text7 CODE >72:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+121 text7 CODE >75:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+123 text7 CODE >78:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+124 text7 CODE >81:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+128 text7 CODE >84:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+12A text7 CODE >87:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+132 text7 CODE >90:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+135 text7 CODE >91:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+1AC text6 CODE >62:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
+1AC text6 CODE >67:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
+1AF text6 CODE >70:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
+1B0 text6 CODE >73:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
+1B1 text6 CODE >76:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
+1B3 text6 CODE >77:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
+1C1 text5 CODE >132:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+1C1 text5 CODE >133:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+1C6 text5 CODE >134:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+163 text4 CODE >64:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+163 text4 CODE >69:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+166 text4 CODE >72:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+167 text4 CODE >75:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+169 text4 CODE >78:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+16B text4 CODE >81:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+173 text4 CODE >84:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+176 text4 CODE >85:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+1D1 text3 CODE >73:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+1D1 text3 CODE >76:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+1D4 text3 CODE >77:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+104 text2 CODE >50:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+104 text2 CODE >53:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+107 text2 CODE >54:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+10A text2 CODE >55:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+10D text2 CODE >56:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+110 text2 CODE >57:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+113 text2 CODE >58:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+116 text2 CODE >59:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+119 text2 CODE >60:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+11C text2 CODE >61:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+1D5 text1 CODE >93:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+1D5 text1 CODE >96:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+1D7 text1 CODE >97:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+EA maintext CODE >70:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+EA maintext CODE >73:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+ED maintext CODE >74:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+F0 maintext CODE >76:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+F8 maintext CODE >83:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+F9 maintext CODE >86:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+FA maintext CODE >98:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+100 maintext CODE >100:/home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+1BB clrtext CODE >3624:/tmp/xcXKBLBLi.s
+1BB clrtext CODE >3625:/tmp/xcXKBLBLi.s
+1BC clrtext CODE >3626:/tmp/xcXKBLBLi.s
+1BC clrtext CODE >3627:/tmp/xcXKBLBLi.s
+1BD clrtext CODE >3628:/tmp/xcXKBLBLi.s
+1BE clrtext CODE >3629:/tmp/xcXKBLBLi.s
+1BF clrtext CODE >3630:/tmp/xcXKBLBLi.s
+1C0 clrtext CODE >3631:/tmp/xcXKBLBLi.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -315,8 +315,8 @@ FE maintext CODE >100:/home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.
 %SYMTAB
 ___latbits 1 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __LdataBANK0 0 0 ABS 0 dataBANK0 -
-_I2C1_Initialize 342 0 CODE 0 text11 dist/default/production/PIC16f1827_Config.X.production.o
-__Hspace_0 1D8 0 ABS 0 - -
+_I2C1_Initialize 346 0 CODE 0 text11 dist/default/production/PIC16f1827_Config.X.production.o
+__Hspace_0 1DA 0 ABS 0 - -
 __Hspace_1 7D 0 ABS 0 - -
 __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
@@ -325,8 +325,9 @@ __HidataBANK0 0 0 ABS 0 idataBANK0 -
 _SSP1STATbits 214 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _PWM1CON 294 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_update_counter 194 0 CODE 0 text18 dist/default/production/PIC16f1827_Config.X.production.o
 _T1CONbits 18 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_WDT_Initialize 3A6 0 CODE 0 text3 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_WDT_Initialize 3AA 0 CODE 0 text3 dist/default/production/PIC16f1827_Config.X.production.o
 __Hstrings 0 0 ABS 0 strings -
 _LATA 10C 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _LATB 10D 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
@@ -334,10 +335,10 @@ _TMR2 1A 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _TMR4 415 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _WPUA 20C 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _WPUB 20D 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-___sp 0 0 STACK 2 stack /tmp/xcXHALOKP.o
-_main 1D0 0 CODE 0 maintext dist/default/production/PIC16f1827_Config.X.production.o
+___sp 0 0 STACK 2 stack /tmp/xcXBGjIgc.o
+_main 1D4 0 CODE 0 maintext dist/default/production/PIC16f1827_Config.X.production.o
 btemp 7E 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-start 50 0 CODE 0 init /tmp/xcXHALOKP.o
+start 50 0 CODE 0 init /tmp/xcXBGjIgc.o
 __size_of_main 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __size_of___llmod 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _OPTION_REGbits 95 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
@@ -349,16 +350,16 @@ _I2C1_CallbackReturnReset 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.
 __size_of_TMR1_Initialize 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __size_of_TMR1_StartTimer 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __size_of_TMR1_WriteTimer 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-_TMR2_Initialize 354 0 CODE 0 text6 dist/default/production/PIC16f1827_Config.X.production.o
-_EPWM1_Initialize 328 0 CODE 0 text12 dist/default/production/PIC16f1827_Config.X.production.o
+_TMR2_Initialize 358 0 CODE 0 text6 dist/default/production/PIC16f1827_Config.X.production.o
+_EPWM1_Initialize 32C 0 CODE 0 text12 dist/default/production/PIC16f1827_Config.X.production.o
 __LnvCOMMON 0 0 ABS 0 nvCOMMON -
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-intlevel0 0 0 ENTRY 0 functab /tmp/xcXHALOKP.o
-intlevel1 0 0 ENTRY 0 functab /tmp/xcXHALOKP.o
-intlevel2 0 0 ENTRY 0 functab /tmp/xcXHALOKP.o
-intlevel3 0 0 ENTRY 0 functab /tmp/xcXHALOKP.o
-intlevel4 0 0 ENTRY 0 functab /tmp/xcXHALOKP.o
-intlevel5 0 0 ENTRY 0 functab /tmp/xcXHALOKP.o
+intlevel0 0 0 ENTRY 0 functab /tmp/xcXBGjIgc.o
+intlevel1 0 0 ENTRY 0 functab /tmp/xcXBGjIgc.o
+intlevel2 0 0 ENTRY 0 functab /tmp/xcXBGjIgc.o
+intlevel3 0 0 ENTRY 0 functab /tmp/xcXBGjIgc.o
+intlevel4 0 0 ENTRY 0 functab /tmp/xcXBGjIgc.o
+intlevel5 0 0 ENTRY 0 functab /tmp/xcXBGjIgc.o
 wtemp0 7E 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 ___llmod@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production/PIC16f1827_Config.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
@@ -367,45 +368,44 @@ __size_of_TMR1_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production/PIC16
 __size_of_TMR4_SetInterruptHandler 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext -
 __size_of_TMR4_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_TMR1_DefaultInterruptHandler 3B0 0 CODE 0 text17 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_TMR1_DefaultInterruptHandler 3B4 0 CODE 0 text17 dist/default/production/PIC16f1827_Config.X.production.o
 _rdBlkRegCompleteHandler 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _ANSELA 18C 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _ANSELB 18D 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _rdBlkRegCompleteHandler@i2c1_master_example$F177 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __size_of_I2C1_Initialize 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_TMR4_DefaultInterruptHandler 3AE 0 CODE 0 text15 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_TMR4_DefaultInterruptHandler 3B2 0 CODE 0 text15 dist/default/production/PIC16f1827_Config.X.production.o
 _BORCON 116 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _CCPR1H 292 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _CCPR1L 291 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __end_of_INTERRUPT_InterruptManager 50 0 CODE 0 intentry dist/default/production/PIC16f1827_Config.X.production.o
 __size_of_TMR1_SetInterruptHandler 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-__size_of_toggle_LED 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _I2C1_DO_SEND_RESTART 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __Lmaintext 0 0 ABS 0 maintext -
 __LnvBANK0 0 0 ABS 0 nvBANK0 -
 _I2C1_DO_SEND_RESTART_WRITE 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __end_of___llmod 120 0 CODE 0 text19 dist/default/production/PIC16f1827_Config.X.production.o
-___stackhi 216F 0 ABS 0 - /tmp/xcXHALOKP.o
-___stacklo 202C 0 ABS 0 - /tmp/xcXHALOKP.o
-__end_of_EPWM1_Initialize 342 0 CODE 0 text12 dist/default/production/PIC16f1827_Config.X.production.o
+___stackhi 216F 0 ABS 0 - /tmp/xcXBGjIgc.o
+___stacklo 202C 0 ABS 0 - /tmp/xcXBGjIgc.o
+__end_of_EPWM1_Initialize 346 0 CODE 0 text12 dist/default/production/PIC16f1827_Config.X.production.o
 __HnvCOMMON 0 0 ABS 0 nvCOMMON -
 __size_of_TMR2_Initialize 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _I2C1_DO_SEND_RESTART_READ 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-_PIN_MANAGER_Initialize 268 0 CODE 0 text9 dist/default/production/PIC16f1827_Config.X.production.o
+_PIN_MANAGER_Initialize 26C 0 CODE 0 text9 dist/default/production/PIC16f1827_Config.X.production.o
 start_initialization 54 0 CODE 0 cinit dist/default/production/PIC16f1827_Config.X.production.o
 __size_of_EPWM1_Initialize 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _OSCCON 99 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _I2C1_DO_SEND_ADR_WRITE 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_TMR4_SetInterruptHandler 38A 0 CODE 0 text5 dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_SYSTEM_Initialize 236 0 CODE 0 text2 dist/default/production/PIC16f1827_Config.X.production.o
-clear_ram0 372 0 CODE 0 clrtext dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_TMR4_SetInterruptHandler 38E 0 CODE 0 text5 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_SYSTEM_Initialize 23A 0 CODE 0 text2 dist/default/production/PIC16f1827_Config.X.production.o
+clear_ram0 376 0 CODE 0 clrtext dist/default/production/PIC16f1827_Config.X.production.o
 __pcstackBANK0 4A 0 BANK0 1 cstackBANK0 dist/default/production/PIC16f1827_Config.X.production.o
 _T1GCON 19 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_TMR4_Initialize 2EA 0 CODE 0 text4 dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_TMR1_SetInterruptHandler 396 0 CODE 0 text8 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_TMR4_Initialize 2EE 0 CODE 0 text4 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_TMR1_SetInterruptHandler 39A 0 CODE 0 text8 dist/default/production/PIC16f1827_Config.X.production.o
 _I2C1_Status 20 0 BANK0 1 bssBANK0 dist/default/production/PIC16f1827_Config.X.production.o
 _WDTCON 97 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-___int_sp 0 0 STACK 2 stack /tmp/xcXHALOKP.o
+___int_sp 0 0 STACK 2 stack /tmp/xcXBGjIgc.o
 _rd2RegCompleteHandler 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
@@ -537,11 +537,12 @@ __Lsfr7 0 0 ABS 0 sfr7 -
 __Lsfr8 0 0 ABS 0 sfr8 -
 __Lsfr9 0 0 ABS 0 sfr9 -
 __Ltext 0 0 ABS 0 text -
-__pstringtext1 190 0 STRCODE 0 stringtext1 dist/default/production/PIC16f1827_Config.X.production.o
+__pstringtext1 194 0 STRCODE 0 stringtext1 dist/default/production/PIC16f1827_Config.X.production.o
 __pnvBANK0 42 0 BANK0 1 nvBANK0 dist/default/production/PIC16f1827_Config.X.production.o
 _SSP1CON1 215 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _SSP1CON2 216 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _SSP1STAT 214 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
+__size_of_update_counter 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
 int$flags 7E 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
@@ -549,25 +550,25 @@ __size_of_INTERRUPT_InterruptManager 0 0 ABS 0 - dist/default/production/PIC16f1
 __size_of_WDT_Initialize 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _PR2 1B 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _PR4 416 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-__S0 1D8 0 ABS 0 - -
+__S0 1DA 0 ABS 0 - -
 __S1 7D 0 ABS 0 - -
 __S2 0 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
 __size_of_TMR1_ISR 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __size_of_TMR4_ISR 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _time_elapsed 41 0 BANK0 1 bssBANK0 dist/default/production/PIC16f1827_Config.X.production.o
-_TMR4_Initialize 2C2 0 CODE 0 text4 dist/default/production/PIC16f1827_Config.X.production.o
+_TMR4_Initialize 2C6 0 CODE 0 text4 dist/default/production/PIC16f1827_Config.X.production.o
 __pnvCOMMON 7B 0 COMMON 1 nvCOMMON dist/default/production/PIC16f1827_Config.X.production.o
 _I2C1_CallbackReturnStop 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _rd1RegCompleteHandler@i2c1_master_example$F143 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _I2C1_DO_RESET 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _ECCP1AS 295 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-_SYSTEM_Initialize 204 0 CODE 0 text2 dist/default/production/PIC16f1827_Config.X.production.o
+_SYSTEM_Initialize 208 0 CODE 0 text2 dist/default/production/PIC16f1827_Config.X.production.o
 _rd2RegCompleteHandler@i2c1_master_example$F154 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _waiting_time 46 0 BANK0 1 dataBANK0 dist/default/production/PIC16f1827_Config.X.production.o
 __HnvBANK0 0 0 ABS 0 nvBANK0 -
 __Lintentry 8 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec /tmp/xcXHALOKP.o
+reset_vec 0 0 CODE 0 reset_vec /tmp/xcXBGjIgc.o
 _CCPTMRS0bits 29E 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __pdataBANK0 46 0 BANK0 1 dataBANK0 dist/default/production/PIC16f1827_Config.X.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
@@ -575,20 +576,20 @@ __Lstringtext1 0 0 ABS 0 stringtext1 -
 _INTERRUPT_InterruptManager 8 0 CODE 0 intentry dist/default/production/PIC16f1827_Config.X.production.o
 _PIE1bits 91 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _PIE3bits 93 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-_TMR1_ISR 296 0 CODE 0 text16 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext10 364 0 CODE 0 text10 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext11 342 0 CODE 0 text11 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext12 328 0 CODE 0 text12 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext14 30C 0 CODE 0 text14 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext15 3AC 0 CODE 0 text15 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext16 296 0 CODE 0 text16 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext17 3AE 0 CODE 0 text17 dist/default/production/PIC16f1827_Config.X.production.o
+_TMR1_ISR 29A 0 CODE 0 text16 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext10 368 0 CODE 0 text10 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext11 346 0 CODE 0 text11 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext12 32C 0 CODE 0 text12 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext14 310 0 CODE 0 text14 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext15 3B0 0 CODE 0 text15 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext16 29A 0 CODE 0 text16 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext17 3B2 0 CODE 0 text17 dist/default/production/PIC16f1827_Config.X.production.o
 __ptext18 120 0 CODE 0 text18 dist/default/production/PIC16f1827_Config.X.production.o
 __ptext19 8C 0 CODE 0 text19 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext20 2EA 0 CODE 0 text20 dist/default/production/PIC16f1827_Config.X.production.o
-_TMR4_ISR 30C 0 CODE 0 text14 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext20 2EE 0 CODE 0 text20 dist/default/production/PIC16f1827_Config.X.production.o
+_TMR4_ISR 310 0 CODE 0 text14 dist/default/production/PIC16f1827_Config.X.production.o
 _I2C1_DO_RX_ACK 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_PIN_MANAGER_Initialize 296 0 CODE 0 text9 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_PIN_MANAGER_Initialize 29A 0 CODE 0 text9 dist/default/production/PIC16f1827_Config.X.production.o
 ___llmod 8C 0 CODE 0 text19 dist/default/production/PIC16f1827_Config.X.production.o
 __Lbank10 0 0 BANK10 1 bank10 -
 __Lbank11 0 0 BANK11 1 bank11 -
@@ -612,13 +613,13 @@ __Lbank28 0 0 BANK28 1 bank28 -
 __Lbank29 0 0 BANK29 1 bank29 -
 __Lbank30 0 0 BANK30 1 bank30 -
 __Lbank31 0 0 BANK31 1 bank31 -
-__pmaintext 1D0 0 CODE 0 maintext dist/default/production/PIC16f1827_Config.X.production.o
+__pmaintext 1D4 0 CODE 0 maintext dist/default/production/PIC16f1827_Config.X.production.o
 __Lbigram 0 0 ABS 0 bigram -
 _I2C1_DO_RX_NACK_STOP 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 4 config -
-__end_of_TMR1_ISR 2C2 0 CODE 0 text16 dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_TMR4_ISR 328 0 CODE 0 text14 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_TMR1_ISR 2C6 0 CODE 0 text16 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_TMR4_ISR 32C 0 CODE 0 text14 dist/default/production/PIC16f1827_Config.X.production.o
 _LATAbits 10C 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 TMR4_SetInterruptHandler@InterruptHandler 4A 0 BANK0 1 cstackBANK0 dist/default/production/PIC16f1827_Config.X.production.o
 __size_of_TMR4_Initialize 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
@@ -647,45 +648,44 @@ TMR1_SetInterruptHandler@InterruptHandler 4A 0 BANK0 1 cstackBANK0 dist/default/
 __HbssBANK0 0 0 ABS 0 bssBANK0 -
 _I2C1_DO_RX 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _I2C1_DO_TX 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-__ptext1 3A6 0 CODE 0 text1 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext2 204 0 CODE 0 text2 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext3 39E 0 CODE 0 text3 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext4 2C2 0 CODE 0 text4 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext5 37E 0 CODE 0 text5 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext6 354 0 CODE 0 text6 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext7 236 0 CODE 0 text7 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext8 38A 0 CODE 0 text8 dist/default/production/PIC16f1827_Config.X.production.o
-__ptext9 268 0 CODE 0 text9 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext1 3AA 0 CODE 0 text1 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext2 208 0 CODE 0 text2 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext3 3A2 0 CODE 0 text3 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext4 2C6 0 CODE 0 text4 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext5 382 0 CODE 0 text5 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext6 358 0 CODE 0 text6 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext7 23A 0 CODE 0 text7 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext8 38E 0 CODE 0 text8 dist/default/production/PIC16f1827_Config.X.production.o
+__ptext9 26C 0 CODE 0 text9 dist/default/production/PIC16f1827_Config.X.production.o
 _TMR4_InterruptHandler 44 0 BANK0 1 nvBANK0 dist/default/production/PIC16f1827_Config.X.production.o
-_toggle_LED 120 0 CODE 0 text18 dist/default/production/PIC16f1827_Config.X.production.o
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
 TMR1_WriteTimer@timerVal 70 0 COMMON 1 cstackCOMMON dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_TMR1_Initialize 268 0 CODE 0 text7 dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_TMR1_StartTimer 3AC 0 CODE 0 text1 dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_TMR1_WriteTimer 30C 0 CODE 0 text20 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_TMR1_Initialize 26C 0 CODE 0 text7 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_TMR1_StartTimer 3B0 0 CODE 0 text1 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_TMR1_WriteTimer 310 0 CODE 0 text20 dist/default/production/PIC16f1827_Config.X.production.o
 _T4CONbits 417 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec -
 __Hstringtext1 0 0 ABS 0 stringtext1 -
 __end_of__initialization 84 0 CODE 0 cinit dist/default/production/PIC16f1827_Config.X.production.o
 __Lfunctab 0 0 ENTRY 0 functab -
-__pidataBANK0 396 0 CODE 0 idataBANK0 dist/default/production/PIC16f1827_Config.X.production.o
+__pidataBANK0 39A 0 CODE 0 idataBANK0 dist/default/production/PIC16f1827_Config.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext -
 _SSP1CON1bits 215 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _SSP1CON2bits 216 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _timer1ReloadVal 7B 0 COMMON 1 nvCOMMON dist/default/production/PIC16f1827_Config.X.production.o
-_TMR1_DefaultInterruptHandler 3AE 0 CODE 0 text17 dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_i2c1_fsmStateTable 1D0 0 STRCODE 0 stringtext1 dist/default/production/PIC16f1827_Config.X.production.o
+_TMR1_DefaultInterruptHandler 3B2 0 CODE 0 text17 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_i2c1_fsmStateTable 1D4 0 STRCODE 0 stringtext1 dist/default/production/PIC16f1827_Config.X.production.o
 __pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production/PIC16f1827_Config.X.production.o
-_TMR4_DefaultInterruptHandler 3AC 0 CODE 0 text15 dist/default/production/PIC16f1827_Config.X.production.o
+_TMR4_DefaultInterruptHandler 3B0 0 CODE 0 text15 dist/default/production/PIC16f1827_Config.X.production.o
 _I2C1_DO_SEND_ADR_READ 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_I2C1_Initialize 354 0 CODE 0 text11 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_I2C1_Initialize 358 0 CODE 0 text11 dist/default/production/PIC16f1827_Config.X.production.o
 _SSP1ADD 212 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _SSP1BUF 211 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __Hend_init 54 0 CODE 0 end_init -
 ___llmod@dividend 74 0 COMMON 1 cstackCOMMON dist/default/production/PIC16f1827_Config.X.production.o
 ___llmod@counter 79 0 COMMON 1 cstackCOMMON dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_main 204 0 CODE 0 maintext dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_main 208 0 CODE 0 maintext dist/default/production/PIC16f1827_Config.X.production.o
 _T1CON 18 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _T2CON 1C 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _T4CON 417 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
@@ -693,30 +693,30 @@ _TMR1H 17 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _TMR1L 16 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _TRISA 8C 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _TRISB 8D 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_toggle_LED 190 0 CODE 0 text18 dist/default/production/PIC16f1827_Config.X.production.o
+_update_counter 120 0 CODE 0 text18 dist/default/production/PIC16f1827_Config.X.production.o
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
-_TMR1_Initialize 236 0 CODE 0 text7 dist/default/production/PIC16f1827_Config.X.production.o
-_TMR1_StartTimer 3A6 0 CODE 0 text1 dist/default/production/PIC16f1827_Config.X.production.o
-_TMR1_WriteTimer 2EA 0 CODE 0 text20 dist/default/production/PIC16f1827_Config.X.production.o
+_TMR1_Initialize 23A 0 CODE 0 text7 dist/default/production/PIC16f1827_Config.X.production.o
+_TMR1_StartTimer 3AA 0 CODE 0 text1 dist/default/production/PIC16f1827_Config.X.production.o
+_TMR1_WriteTimer 2EE 0 CODE 0 text20 dist/default/production/PIC16f1827_Config.X.production.o
 _I2C1_DO_ADDRESS_NACK 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-_TMR4_SetInterruptHandler 37E 0 CODE 0 text5 dist/default/production/PIC16f1827_Config.X.production.o
+_TMR4_SetInterruptHandler 382 0 CODE 0 text5 dist/default/production/PIC16f1827_Config.X.production.o
 __size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
-_WDT_Initialize 39E 0 CODE 0 text3 dist/default/production/PIC16f1827_Config.X.production.o
+_WDT_Initialize 3A2 0 CODE 0 text3 dist/default/production/PIC16f1827_Config.X.production.o
 _CCP1CON 293 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 __pintentry 8 0 CODE 0 intentry dist/default/production/PIC16f1827_Config.X.production.o
 __HdataBANK0 0 0 ABS 0 dataBANK0 -
-__end_of_OSCILLATOR_Initialize 372 0 CODE 0 text10 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_OSCILLATOR_Initialize 376 0 CODE 0 text10 dist/default/production/PIC16f1827_Config.X.production.o
 __initialization 54 0 CODE 0 cinit dist/default/production/PIC16f1827_Config.X.production.o
 __pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/production/PIC16f1827_Config.X.production.o
-_i2c1_fsmStateTable 190 0 STRCODE 0 stringtext1 dist/default/production/PIC16f1827_Config.X.production.o
+_i2c1_fsmStateTable 194 0 STRCODE 0 stringtext1 dist/default/production/PIC16f1827_Config.X.production.o
 _T2CONbits 1C 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _I2C1_DO_TX_EMPTY 0 0 ABS 0 - dist/default/production/PIC16f1827_Config.X.production.o
 _counter 3D 0 BANK0 1 bssBANK0 dist/default/production/PIC16f1827_Config.X.production.o
-_TMR1_SetInterruptHandler 38A 0 CODE 0 text8 dist/default/production/PIC16f1827_Config.X.production.o
+_TMR1_SetInterruptHandler 38E 0 CODE 0 text8 dist/default/production/PIC16f1827_Config.X.production.o
 _TMR1_InterruptHandler 42 0 BANK0 1 nvBANK0 dist/default/production/PIC16f1827_Config.X.production.o
-_OSCILLATOR_Initialize 364 0 CODE 0 text10 dist/default/production/PIC16f1827_Config.X.production.o
-__end_of_TMR2_Initialize 364 0 CODE 0 text6 dist/default/production/PIC16f1827_Config.X.production.o
+_OSCILLATOR_Initialize 368 0 CODE 0 text10 dist/default/production/PIC16f1827_Config.X.production.o
+__end_of_TMR2_Initialize 368 0 CODE 0 text6 dist/default/production/PIC16f1827_Config.X.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -742,10 +742,10 @@ __end_of_TMR2_Initialize 364 0 CODE 0 text6 dist/default/production/PIC16f1827_C
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-maintext 0 E8 1D0 F0 2
+maintext 0 EA 1D4 F0 2
 cstackCOMMON 1 70 70 D 1
-stringtext1 0 C8 190 20 2
-intentry 0 4 8 C4 2
+stringtext1 0 CA 194 20 2
+intentry 0 4 8 C6 2
 reset_vec 0 0 0 2 2
 bssBANK0 1 20 20 2C 1
 # %NOTES Section

@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 16F1827 ]
 [d frameptr 6 ]
-"34 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/drivers/i2c_simple_master.c
+"34 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/drivers/i2c_simple_master.c
 [e E360 . `uc
 I2C1_STOP 1
 I2C1_RESTART_READ 2
@@ -17,7 +17,7 @@ I2C1_NOERR 0
 I2C1_BUSY 1
 I2C1_FAIL 2
 ]
-"67 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/examples/i2c1_master_example.c
+"67 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/examples/i2c1_master_example.c
 [e E355 . `uc
 I2C1_NOERR 0
 I2C1_BUSY 1
@@ -31,7 +31,7 @@ I2C1_RESTART_WRITE 3
 I2C1_CONTINUE 4
 I2C1_RESET_LINK 5
 ]
-"146 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
+"146 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
 [e E2861 . `uc
 I2C1_IDLE 0
 I2C1_SEND_ADR_READ 1
@@ -82,11 +82,11 @@ I2C1_NULL 5
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"59 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-[v _toggle_LED toggle_LED `(v  1 e 1 0 ]
+"59 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+[v _update_counter update_counter `(v  1 e 1 0 ]
 "70
 [v _main main `(v  1 e 1 0 ]
-"34 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/drivers/i2c_simple_master.c
+"34 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/drivers/i2c_simple_master.c
 [v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
 "81
 [v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
@@ -96,9 +96,9 @@ I2C1_NULL 5
 [v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
 "185
 [v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
-"64 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
+"64 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
 [v _EPWM1_Initialize EPWM1_Initialize `(v  1 e 1 0 ]
-"142 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/examples/i2c1_master_example.c
+"142 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/examples/i2c1_master_example.c
 [v _rd1RegCompleteHandler@i2c1_master_example$F143 rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
 "149
 [v _rd2RegCompleteHandler@i2c1_master_example$F154 rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
@@ -108,7 +108,7 @@ I2C1_NULL 5
 [v _wr2RegCompleteHandler@i2c1_master_example$F166 wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
 "170
 [v _rdBlkRegCompleteHandler@i2c1_master_example$F177 rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
-"167 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
+"167 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
 [v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
 "176
 [v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
@@ -204,17 +204,17 @@ I2C1_NULL 5
 [v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
 "650
 [v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
-"52 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
+"52 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
-"50 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+"50 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "63
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 "73
 [v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
-"55 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+"55 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"64 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+"64 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
 "93
 [v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
@@ -226,9 +226,9 @@ I2C1_NULL 5
 [v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
 "175
 [v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
-"62 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
+"62 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
-"64 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+"64 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
 [v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
 "119
 [v _TMR4_ISR TMR4_ISR `(v  1 e 1 0 ]
@@ -522,13 +522,13 @@ I2C1_NULL 5
 ]
 [u S381 . 1 `S369 1 . 1 0 `S377 1 . 1 0 ]
 [v _T4CONbits T4CONbits `VES381  1 e 1 @1047 ]
-"54 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+"54 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
 [v _waiting_time waiting_time `ul  1 s 4 waiting_time ]
 "55
-[v _counter counter `ul  1 s 4 counter ]
+[v _counter counter `VEul  1 s 4 counter ]
 "56
-[v _time_elapsed time_elapsed `a  1 s 1 time_elapsed ]
-"146 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
+[v _time_elapsed time_elapsed `VEa  1 s 1 time_elapsed ]
+"146 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
 [v _i2c1_fsmStateTable i2c1_fsmStateTable `DC[16]*.37(E2861  1 e 32 0 ]
 [s S660 . 29 `[6]*.37(E360 1 callbackTable 12 0 `[6]*.1v 1 callbackPayload 6 12 `us 1 time_out 2 18 `us 1 time_out_value 2 20 `uc 1 address 1 22 `*.1uc 1 data_ptr 1 23 `ui 1 data_length 2 24 `E2861 1 state 1 26 `E355 1 error 1 27 `uc 1 addressNackCheck 1 28 :1:0 
 `uc 1 busy 1 28 :1:1 
@@ -537,23 +537,23 @@ I2C1_NULL 5
 ]
 "165
 [v _I2C1_Status I2C1_Status `S660  1 e 29 0 ]
-"57 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+"57 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
 [v _timer1ReloadVal timer1ReloadVal `VEus  1 e 2 0 ]
 "58
 [v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
-"58 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+"58 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
 [v _TMR4_InterruptHandler TMR4_InterruptHandler `*.37(v  1 e 2 0 ]
-"70 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+"70 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
 [v _main main `(v  1 e 1 0 ]
 {
 "104
 } 0
-"93 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+"93 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
 [v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
 {
 "97
 } 0
-"50 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+"50 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "61
@@ -563,7 +563,7 @@ I2C1_NULL 5
 {
 "77
 } 0
-"64 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+"64 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
 [v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
 {
 "85
@@ -574,12 +574,12 @@ I2C1_NULL 5
 [v TMR4_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "134
 } 0
-"62 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
+"62 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 {
 "77
 } 0
-"64 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+"64 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
 [v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
 {
 "91
@@ -590,32 +590,32 @@ I2C1_NULL 5
 [v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "173
 } 0
-"55 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
+"55 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "94
 } 0
-"63 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
+"63 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "71
 } 0
-"167 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
+"167 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/i2c1_master.c
 [v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
 {
 "174
 } 0
-"64 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
+"64 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/epwm1.c
 [v _EPWM1_Initialize EPWM1_Initialize `(v  1 e 1 0 ]
 {
 "88
 } 0
-"52 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
+"52 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
 {
 "74
 } 0
-"119 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
+"119 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr4.c
 [v _TMR4_ISR TMR4_ISR `(v  1 e 1 0 ]
 {
 "129
@@ -625,7 +625,7 @@ I2C1_NULL 5
 {
 "139
 } 0
-"157 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+"157 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
 [v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
 {
 "168
@@ -635,8 +635,8 @@ I2C1_NULL 5
 {
 "178
 } 0
-"59 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/main.c
-[v _toggle_LED toggle_LED `(v  1 e 1 0 ]
+"59 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/main.c
+[v _update_counter update_counter `(v  1 e 1 0 ]
 {
 "65
 } 0
@@ -650,7 +650,7 @@ I2C1_NULL 5
 [v ___llmod@dividend dividend `ul  1 p 4 4 ]
 "25
 } 0
-"120 /home/aniket/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
+"120 /home/aniket/MPLABXProjects/PIC16f1827_projects/PIC16f1827_Config.X/mcc_generated_files/tmr1.c
 [v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
 {
 [v TMR1_WriteTimer@timerVal timerVal `us  1 p 2 0 ]

@@ -517,24 +517,24 @@ Version 4.0 HI-TECH Software Intermediate Code
 -> -> -> 15 `i `l `ul
 ]
 "55
-[; ;main.c: 55: static uint32_t counter=0;
-[v _counter `ul ~T0 @X0 1 s ]
+[; ;main.c: 55: static volatile uint32_t counter=0;
+[v _counter `Vul ~T0 @X0 1 s ]
 [i _counter
 -> -> -> 0 `i `l `ul
 ]
 "56
-[; ;main.c: 56: static _Bool time_elapsed=0;
-[v _time_elapsed `a ~T0 @X0 1 s ]
+[; ;main.c: 56: static volatile _Bool time_elapsed=0;
+[v _time_elapsed `Va ~T0 @X0 1 s ]
 [i _time_elapsed
 -> -> 0 `i `a
 ]
 "59
-[; ;main.c: 59: void toggle_LED(void)
-[v _toggle_LED `(v ~T0 @X0 1 ef ]
+[; ;main.c: 59: void update_counter(void)
+[v _update_counter `(v ~T0 @X0 1 ef ]
 "60
 [; ;main.c: 60: {
 {
-[e :U _toggle_LED ]
+[e :U _update_counter ]
 [f ]
 "61
 [; ;main.c: 61:     LATAbits.LATA1^=1;
@@ -569,8 +569,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;main.c: 74:     TMR1_StartTimer();
 [e ( _TMR1_StartTimer ..  ]
 "76
-[; ;main.c: 76:     TMR1_SetInterruptHandler(toggle_LED);
-[e ( _TMR1_SetInterruptHandler (1 &U _toggle_LED ]
+[; ;main.c: 76:     TMR1_SetInterruptHandler(update_counter);
+[e ( _TMR1_SetInterruptHandler (1 &U _update_counter ]
 "83
 [; ;main.c: 83:     (INTCONbits.GIE = 1);
 [e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]

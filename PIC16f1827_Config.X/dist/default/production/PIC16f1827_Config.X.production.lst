@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.32 build 20210201212658 
-                                                                                               Sat Jun 19 09:55:33 2021
+                                                                                               Sun Jun 20 11:28:36 2021
 
 Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1 
      1                           	processor	16F1827
@@ -1721,50 +1721,50 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   1707 ;; Function _I2C1_CallbackReturnReset is unused but had its address taken
   1708  0000                     
   1709                           	psect	idataBANK0
-  1710  01CB                     __pidataBANK0:
+  1710  01CD                     __pidataBANK0:
   1711                           
   1712                           ;initializer for _waiting_time
-  1713  01CB  340F               	retlw	15
-  1714  01CC  3400               	retlw	0
-  1715  01CD  3400               	retlw	0
-  1716  01CE  3400               	retlw	0
+  1713  01CD  340F               	retlw	15
+  1714  01CE  3400               	retlw	0
+  1715  01CF  3400               	retlw	0
+  1716  01D0  3400               	retlw	0
   1717                           
   1718                           	psect	stringtext1
-  1719  00C8                     __pstringtext1:
-  1720  00C8                     _i2c1_fsmStateTable:
-  1721  00C8  3400               	retlw	0
-  1722  00C9  3400               	retlw	0
-  1723  00CA  3400               	retlw	0
-  1724  00CB  3400               	retlw	0
-  1725  00CC  3400               	retlw	0
-  1726  00CD  3400               	retlw	0
-  1727  00CE  3400               	retlw	0
-  1728  00CF  3400               	retlw	0
-  1729  00D0  3400               	retlw	0
-  1730  00D1  3400               	retlw	0
-  1731  00D2  3400               	retlw	0
-  1732  00D3  3400               	retlw	0
-  1733  00D4  3400               	retlw	0
-  1734  00D5  3400               	retlw	0
-  1735  00D6  3400               	retlw	0
-  1736  00D7  3400               	retlw	0
-  1737  00D8  3400               	retlw	0
-  1738  00D9  3400               	retlw	0
-  1739  00DA  3400               	retlw	0
-  1740  00DB  3400               	retlw	0
-  1741  00DC  3400               	retlw	0
-  1742  00DD  3400               	retlw	0
-  1743  00DE  3400               	retlw	0
-  1744  00DF  3400               	retlw	0
-  1745  00E0  3400               	retlw	0
-  1746  00E1  3400               	retlw	0
-  1747  00E2  3400               	retlw	0
-  1748  00E3  3400               	retlw	0
-  1749  00E4  3400               	retlw	0
-  1750  00E5  3400               	retlw	0
-  1751  00E6  3400               	retlw	0
-  1752  00E7  3400               	retlw	0
-  1753  00E8                     __end_of_i2c1_fsmStateTable:
+  1719  00CA                     __pstringtext1:
+  1720  00CA                     _i2c1_fsmStateTable:
+  1721  00CA  3400               	retlw	0
+  1722  00CB  3400               	retlw	0
+  1723  00CC  3400               	retlw	0
+  1724  00CD  3400               	retlw	0
+  1725  00CE  3400               	retlw	0
+  1726  00CF  3400               	retlw	0
+  1727  00D0  3400               	retlw	0
+  1728  00D1  3400               	retlw	0
+  1729  00D2  3400               	retlw	0
+  1730  00D3  3400               	retlw	0
+  1731  00D4  3400               	retlw	0
+  1732  00D5  3400               	retlw	0
+  1733  00D6  3400               	retlw	0
+  1734  00D7  3400               	retlw	0
+  1735  00D8  3400               	retlw	0
+  1736  00D9  3400               	retlw	0
+  1737  00DA  3400               	retlw	0
+  1738  00DB  3400               	retlw	0
+  1739  00DC  3400               	retlw	0
+  1740  00DD  3400               	retlw	0
+  1741  00DE  3400               	retlw	0
+  1742  00DF  3400               	retlw	0
+  1743  00E0  3400               	retlw	0
+  1744  00E1  3400               	retlw	0
+  1745  00E2  3400               	retlw	0
+  1746  00E3  3400               	retlw	0
+  1747  00E4  3400               	retlw	0
+  1748  00E5  3400               	retlw	0
+  1749  00E6  3400               	retlw	0
+  1750  00E7  3400               	retlw	0
+  1751  00E8  3400               	retlw	0
+  1752  00E9  3400               	retlw	0
+  1753  00EA                     __end_of_i2c1_fsmStateTable:
   1754                           
   1755                           	psect	nvCOMMON
   1756  007B                     __pnvCOMMON:
@@ -1836,13 +1836,13 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   1822  002A                     __initialization:
   1823                           
   1824                           ; Initialize objects allocated to BANK0
-  1825  002A  3181  21CB  3180   	fcall	__pidataBANK0	;fetch initializer
+  1825  002A  3181  21CD  3180   	fcall	__pidataBANK0	;fetch initializer
   1826  002D  00C6               	movwf	__pdataBANK0& (0+127)
-  1827  002E  3181  21CC  3180   	fcall	__pidataBANK0+1	;fetch initializer
+  1827  002E  3181  21CE  3180   	fcall	__pidataBANK0+1	;fetch initializer
   1828  0031  00C7               	movwf	(__pdataBANK0+1)& (0+127)
-  1829  0032  3181  21CD  3180   	fcall	__pidataBANK0+2	;fetch initializer
+  1829  0032  3181  21CF  3180   	fcall	__pidataBANK0+2	;fetch initializer
   1830  0035  00C8               	movwf	(__pdataBANK0+2)& (0+127)
-  1831  0036  3181  21CE  3180   	fcall	__pidataBANK0+3	;fetch initializer
+  1831  0036  3181  21D0  3180   	fcall	__pidataBANK0+3	;fetch initializer
   1832  0039  00C9               	movwf	(__pdataBANK0+3)& (0+127)
   1833                           
   1834                           ; Clear objects allocated to BANK0
@@ -1851,14 +1851,14 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   1837  003C  3000               	movlw	high __pbssBANK0
   1838  003D  0085               	movwf	5
   1839  003E  3022               	movlw	34
-  1840  003F  3181  21B9  3180   	fcall	clear_ram0
+  1840  003F  3181  21BB  3180   	fcall	clear_ram0
   1841  0042                     end_of_initialization:	
   1842                           ;End of C runtime variable initialization code
   1843                           
   1844  0042                     __end_of__initialization:
   1845  0042  107E               	bcf	int$flags,0	;clear compiler interrupt flag (level 1)
   1846  0043  0020               	movlb	0
-  1847  0044  3180  28E8         	ljmp	_main	;jump to C main() function
+  1847  0044  3180  28EA         	ljmp	_main	;jump to C main() function
   1848                           
   1849                           	psect	bssBANK0
   1850  0020                     __pbssBANK0:
@@ -1875,17 +1875,17 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   1861  0046                     	ds	4
   1862                           
   1863                           	psect	clrtext
-  1864  01B9                     clear_ram0:	
+  1864  01BB                     clear_ram0:	
   1865                           ;	Called with FSR0 containing the base address, and
   1866                           ;	WREG with the size to clear
   1867                           
-  1868  01B9  0064               	clrwdt	;clear the watchdog before getting into this loop
-  1869  01BA                     clrloop0:
-  1870  01BA  0180               	clrf	0	;clear RAM location pointed to by FSR
-  1871  01BB  3101               	addfsr 0,1
-  1872  01BC  0B89               	decfsz	9,f	;Have we reached the end of clearing yet?
-  1873  01BD  29BA               	goto	clrloop0	;have we reached the end yet?
-  1874  01BE  3400               	retlw	0	;all done for this memory range, return
+  1868  01BB  0064               	clrwdt	;clear the watchdog before getting into this loop
+  1869  01BC                     clrloop0:
+  1870  01BC  0180               	clrf	0	;clear RAM location pointed to by FSR
+  1871  01BD  3101               	addfsr 0,1
+  1872  01BE  0B89               	decfsz	9,f	;Have we reached the end of clearing yet?
+  1873  01BF  29BC               	goto	clrloop0	;have we reached the end yet?
+  1874  01C0  3400               	retlw	0	;all done for this memory range, return
   1875                           
   1876                           	psect	cstackCOMMON
   1877  0070                     __pcstackCOMMON:
@@ -1944,7 +1944,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   1930  0070                     ?_TMR1_WriteTimer:	
   1931                           ; 1 bytes @ 0x0
   1932                           
-  1933  0070                     ?_toggle_LED:	
+  1933  0070                     ?_update_counter:	
   1934                           ; 1 bytes @ 0x0
   1935                           
   1936  0070                     ?_main:	
@@ -1978,7 +1978,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   1964                           
   1965                           ; 1 bytes @ 0x9
   1966  0079                     	ds	1
-  1967  007A                     ??_toggle_LED:
+  1967  007A                     ??_update_counter:
   1968                           
   1969                           ; 1 bytes @ 0xA
   1970  007A                     	ds	1
@@ -2043,7 +2043,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2029                           
   2030                           
   2031                           	psect	maintext
-  2032  00E8                     __pmaintext:	
+  2032  00EA                     __pmaintext:	
   2033                           ; 1 bytes @ 0x2
   2034 ;;
   2035 ;;Main: autosize = 0, tempsize = 0, incstack = 0, save=0
@@ -2081,56 +2081,56 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2067                           
   2068                           
   2069                           ;psect for function _main
-  2070  00E8                     _main:
-  2071  00E8                     l2485:	
+  2070  00EA                     _main:
+  2071  00EA                     l2485:	
   2072                           ;incstack = 0
   2073                           ; Regs used in _main: [wreg+status,2+status,0+pclath+cstack]
   2074                           
   2075                           
   2076                           ;main.c: 73:     SYSTEM_Initialize();
-  2077  00E8  3181  2102  3180   	fcall	_SYSTEM_Initialize
-  2078  00EB                     l2487:
+  2077  00EA  3181  2104  3180   	fcall	_SYSTEM_Initialize
+  2078  00ED                     l2487:
   2079                           
   2080                           ;main.c: 74:     TMR1_StartTimer();
-  2081  00EB  3181  21D3  3180   	fcall	_TMR1_StartTimer
-  2082  00EE                     l2489:
+  2081  00ED  3181  21D5  3180   	fcall	_TMR1_StartTimer
+  2082  00F0                     l2489:
   2083                           
-  2084                           ;main.c: 76:     TMR1_SetInterruptHandler(toggle_LED);
-  2085  00EE  3090               	movlw	low _toggle_LED
-  2086  00EF  0020               	movlb	0	; select bank0
-  2087  00F0  00CA               	movwf	TMR1_SetInterruptHandler@InterruptHandler
-  2088  00F1  3000               	movlw	high _toggle_LED
-  2089  00F2  00CB               	movwf	TMR1_SetInterruptHandler@InterruptHandler+1
-  2090  00F3  3181  21C5  3180   	fcall	_TMR1_SetInterruptHandler
-  2091  00F6                     l2491:
+  2084                           ;main.c: 76:     TMR1_SetInterruptHandler(update_counter);
+  2085  00F0  3090               	movlw	low _update_counter
+  2086  00F1  0020               	movlb	0	; select bank0
+  2087  00F2  00CA               	movwf	TMR1_SetInterruptHandler@InterruptHandler
+  2088  00F3  3000               	movlw	high _update_counter
+  2089  00F4  00CB               	movwf	TMR1_SetInterruptHandler@InterruptHandler+1
+  2090  00F5  3181  21C7  3180   	fcall	_TMR1_SetInterruptHandler
+  2091  00F8                     l2491:
   2092                           
   2093                           ;main.c: 83:     (INTCONbits.GIE = 1);
-  2094  00F6  178B               	bsf	11,7	;volatile
-  2095  00F7                     l2493:
+  2094  00F8  178B               	bsf	11,7	;volatile
+  2095  00F9                     l2493:
   2096                           
   2097                           ;main.c: 86:     (INTCONbits.PEIE = 1);
-  2098  00F7  170B               	bsf	11,6	;volatile
-  2099  00F8                     l2495:
+  2098  00F9  170B               	bsf	11,6	;volatile
+  2099  00FA                     l2495:
   2100                           
   2101                           ;main.c: 95:     {;main.c: 98:         if(time_elapsed)
-  2102  00F8  0020               	movlb	0	; select bank0
-  2103  00F9  0841               	movf	_time_elapsed,w
-  2104  00FA  1903               	btfsc	3,2
-  2105  00FB  28FD               	goto	u791
-  2106  00FC  28FE               	goto	u790
-  2107  00FD                     u791:
-  2108  00FD  28F8               	goto	l2495
-  2109  00FE                     u790:
-  2110  00FE                     l2497:
+  2102  00FA  0020               	movlb	0	; select bank0
+  2103  00FB  0841               	movf	_time_elapsed,w	;volatile
+  2104  00FC  1903               	btfsc	3,2
+  2105  00FD  28FF               	goto	u791
+  2106  00FE  2900               	goto	u790
+  2107  00FF                     u791:
+  2108  00FF  28FA               	goto	l2495
+  2109  0100                     u790:
+  2110  0100                     l2497:
   2111                           
   2112                           ;main.c: 99:         {;main.c: 100:             time_elapsed=0;
-  2113  00FE  01C1               	clrf	_time_elapsed
-  2114  00FF  28F8               	goto	l2495
-  2115  0100  3180  2828         	ljmp	start
-  2116  0102                     __end_of_main:
+  2113  0100  01C1               	clrf	_time_elapsed	;volatile
+  2114  0101  28FA               	goto	l2495
+  2115  0102  3180  2828         	ljmp	start
+  2116  0104                     __end_of_main:
   2117                           
   2118                           	psect	text1
-  2119  01D3                     __ptext1:	
+  2119  01D5                     __ptext1:	
   2120 ;; *************** function _TMR1_StartTimer *****************
   2121 ;; Defined at:
   2122 ;;		line 93 in file "mcc_generated_files/tmr1.c"
@@ -2163,21 +2163,21 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2149                           
   2150                           
   2151                           ;psect for function _TMR1_StartTimer
-  2152  01D3                     _TMR1_StartTimer:
-  2153  01D3                     l2469:	
+  2152  01D5                     _TMR1_StartTimer:
+  2153  01D5                     l2469:	
   2154                           ;incstack = 0
   2155                           ; Regs used in _TMR1_StartTimer: []
   2156                           
   2157                           
   2158                           ;mcc_generated_files/tmr1.c: 96:     T1CONbits.TMR1ON = 1;
-  2159  01D3  0020               	movlb	0	; select bank0
-  2160  01D4  1418               	bsf	24,0	;volatile
-  2161  01D5                     l748:
-  2162  01D5  0008               	return
-  2163  01D6                     __end_of_TMR1_StartTimer:
+  2159  01D5  0020               	movlb	0	; select bank0
+  2160  01D6  1418               	bsf	24,0	;volatile
+  2161  01D7                     l748:
+  2162  01D7  0008               	return
+  2163  01D8                     __end_of_TMR1_StartTimer:
   2164                           
   2165                           	psect	text2
-  2166  0102                     __ptext2:	
+  2166  0104                     __ptext2:	
   2167 ;; *************** function _SYSTEM_Initialize *****************
   2168 ;; Defined at:
   2169 ;;		line 50 in file "mcc_generated_files/mcc.c"
@@ -2217,41 +2217,41 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2203                           
   2204                           
   2205                           ;psect for function _SYSTEM_Initialize
-  2206  0102                     _SYSTEM_Initialize:
-  2207  0102                     l2453:	
+  2206  0104                     _SYSTEM_Initialize:
+  2207  0104                     l2453:	
   2208                           ;incstack = 0
   2209                           ; Regs used in _SYSTEM_Initialize: [wreg+status,2+status,0+pclath+cstack]
   2210                           
   2211                           
   2212                           ;mcc_generated_files/mcc.c: 53:     I2C1_Initialize();
-  2213  0102  3181  21A1  3181   	fcall	_I2C1_Initialize
+  2213  0104  3181  21A3  3181   	fcall	_I2C1_Initialize
   2214                           
   2215                           ;mcc_generated_files/mcc.c: 54:     PIN_MANAGER_Initialize();
-  2216  0105  3181  2134  3181   	fcall	_PIN_MANAGER_Initialize
+  2216  0107  3181  2136  3181   	fcall	_PIN_MANAGER_Initialize
   2217                           
   2218                           ;mcc_generated_files/mcc.c: 55:     OSCILLATOR_Initialize();
-  2219  0108  3181  21B2  3181   	fcall	_OSCILLATOR_Initialize
+  2219  010A  3181  21B4  3181   	fcall	_OSCILLATOR_Initialize
   2220                           
   2221                           ;mcc_generated_files/mcc.c: 56:     WDT_Initialize();
-  2222  010B  3181  21CF  3181   	fcall	_WDT_Initialize
+  2222  010D  3181  21D1  3181   	fcall	_WDT_Initialize
   2223                           
   2224                           ;mcc_generated_files/mcc.c: 57:     EPWM1_Initialize();
-  2225  010E  3181  2194  3181   	fcall	_EPWM1_Initialize
+  2225  0110  3181  2196  3181   	fcall	_EPWM1_Initialize
   2226                           
   2227                           ;mcc_generated_files/mcc.c: 58:     TMR4_Initialize();
-  2228  0111  3181  2161  3181   	fcall	_TMR4_Initialize
+  2228  0113  3181  2163  3181   	fcall	_TMR4_Initialize
   2229                           
   2230                           ;mcc_generated_files/mcc.c: 59:     TMR2_Initialize();
-  2231  0114  3181  21AA  3181   	fcall	_TMR2_Initialize
+  2231  0116  3181  21AC  3181   	fcall	_TMR2_Initialize
   2232                           
   2233                           ;mcc_generated_files/mcc.c: 60:     TMR1_Initialize();
-  2234  0117  3181  211B  3181   	fcall	_TMR1_Initialize
-  2235  011A                     l252:
-  2236  011A  0008               	return
-  2237  011B                     __end_of_SYSTEM_Initialize:
+  2234  0119  3181  211D  3181   	fcall	_TMR1_Initialize
+  2235  011C                     l252:
+  2236  011C  0008               	return
+  2237  011D                     __end_of_SYSTEM_Initialize:
   2238                           
   2239                           	psect	text3
-  2240  01CF                     __ptext3:	
+  2240  01D1                     __ptext3:	
   2241 ;; *************** function _WDT_Initialize *****************
   2242 ;; Defined at:
   2243 ;;		line 73 in file "mcc_generated_files/mcc.c"
@@ -2284,22 +2284,22 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2270                           
   2271                           
   2272                           ;psect for function _WDT_Initialize
-  2273  01CF                     _WDT_Initialize:
-  2274  01CF                     l2379:	
+  2273  01D1                     _WDT_Initialize:
+  2274  01D1                     l2379:	
   2275                           ;incstack = 0
   2276                           ; Regs used in _WDT_Initialize: [wreg]
   2277                           
   2278                           
   2279                           ;mcc_generated_files/mcc.c: 76:     WDTCON = 0x16;
-  2280  01CF  3016               	movlw	22
-  2281  01D0  0021               	movlb	1	; select bank1
-  2282  01D1  0097               	movwf	23	;volatile
-  2283  01D2                     l258:
-  2284  01D2  0008               	return
-  2285  01D3                     __end_of_WDT_Initialize:
+  2280  01D1  3016               	movlw	22
+  2281  01D2  0021               	movlb	1	; select bank1
+  2282  01D3  0097               	movwf	23	;volatile
+  2283  01D4                     l258:
+  2284  01D4  0008               	return
+  2285  01D5                     __end_of_WDT_Initialize:
   2286                           
   2287                           	psect	text4
-  2288  0161                     __ptext4:	
+  2288  0163                     __ptext4:	
   2289 ;; *************** function _TMR4_Initialize *****************
   2290 ;; Defined at:
   2291 ;;		line 64 in file "mcc_generated_files/tmr4.c"
@@ -2332,52 +2332,52 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2318                           
   2319                           
   2320                           ;psect for function _TMR4_Initialize
-  2321  0161                     _TMR4_Initialize:
-  2322  0161                     l2395:	
+  2321  0163                     _TMR4_Initialize:
+  2322  0163                     l2395:	
   2323                           ;incstack = 0
   2324                           ; Regs used in _TMR4_Initialize: [wreg+status,2+status,0+pclath+cstack]
   2325                           
   2326                           
-  2327                           ;mcc_generated_files/tmr4.c: 69:     PR4 = 0xF3;
-  2328  0161  30F3               	movlw	243
-  2329  0162  0028               	movlb	8	; select bank8
-  2330  0163  0096               	movwf	22	;volatile
-  2331  0164                     l2397:
+  2327                           ;mcc_generated_files/tmr4.c: 69:     PR4 = 0x0B;
+  2328  0163  300B               	movlw	11
+  2329  0164  0028               	movlb	8	; select bank8
+  2330  0165  0096               	movwf	22	;volatile
+  2331  0166                     l2397:
   2332                           
   2333                           ;mcc_generated_files/tmr4.c: 72:     TMR4 = 0x00;
-  2334  0164  0195               	clrf	21	;volatile
-  2335  0165                     l2399:
+  2334  0166  0195               	clrf	21	;volatile
+  2335  0167                     l2399:
   2336                           
   2337                           ;mcc_generated_files/tmr4.c: 75:     PIR3bits.TMR4IF = 0;
-  2338  0165  0020               	movlb	0	; select bank0
-  2339  0166  1093               	bcf	19,1	;volatile
-  2340  0167                     l2401:
+  2338  0167  0020               	movlb	0	; select bank0
+  2339  0168  1093               	bcf	19,1	;volatile
+  2340  0169                     l2401:
   2341                           
   2342                           ;mcc_generated_files/tmr4.c: 78:     PIE3bits.TMR4IE = 1;
-  2343  0167  0021               	movlb	1	; select bank1
-  2344  0168  1493               	bsf	19,1	;volatile
-  2345  0169                     l2403:
+  2343  0169  0021               	movlb	1	; select bank1
+  2344  016A  1493               	bsf	19,1	;volatile
+  2345  016B                     l2403:
   2346                           
   2347                           ;mcc_generated_files/tmr4.c: 81:     TMR4_SetInterruptHandler(TMR4_DefaultInterruptHandl
       +                          er);
-  2348  0169  30D6               	movlw	low _TMR4_DefaultInterruptHandler
-  2349  016A  0020               	movlb	0	; select bank0
-  2350  016B  00CA               	movwf	TMR4_SetInterruptHandler@InterruptHandler
-  2351  016C  3001               	movlw	high _TMR4_DefaultInterruptHandler
-  2352  016D  00CB               	movwf	TMR4_SetInterruptHandler@InterruptHandler+1
-  2353  016E  3181  21BF  3181   	fcall	_TMR4_SetInterruptHandler
-  2354  0171                     l2405:
+  2348  016B  30D8               	movlw	low _TMR4_DefaultInterruptHandler
+  2349  016C  0020               	movlb	0	; select bank0
+  2350  016D  00CA               	movwf	TMR4_SetInterruptHandler@InterruptHandler
+  2351  016E  3001               	movlw	high _TMR4_DefaultInterruptHandler
+  2352  016F  00CB               	movwf	TMR4_SetInterruptHandler@InterruptHandler+1
+  2353  0170  3181  21C1  3181   	fcall	_TMR4_SetInterruptHandler
+  2354  0173                     l2405:
   2355                           
   2356                           ;mcc_generated_files/tmr4.c: 84:     T4CON = 0x7F;
-  2357  0171  307F               	movlw	127
-  2358  0172  0028               	movlb	8	; select bank8
-  2359  0173  0097               	movwf	23	;volatile
-  2360  0174                     l279:
-  2361  0174  0008               	return
-  2362  0175                     __end_of_TMR4_Initialize:
+  2357  0173  307F               	movlw	127
+  2358  0174  0028               	movlb	8	; select bank8
+  2359  0175  0097               	movwf	23	;volatile
+  2360  0176                     l279:
+  2361  0176  0008               	return
+  2362  0177                     __end_of_TMR4_Initialize:
   2363                           
   2364                           	psect	text5
-  2365  01BF                     __ptext5:	
+  2365  01C1                     __ptext5:	
   2366 ;; *************** function _TMR4_SetInterruptHandler *****************
   2367 ;; Defined at:
   2368 ;;		line 132 in file "mcc_generated_files/tmr4.c"
@@ -2411,24 +2411,24 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2396                           
   2397                           
   2398                           ;psect for function _TMR4_SetInterruptHandler
-  2399  01BF                     _TMR4_SetInterruptHandler:
-  2400  01BF                     l2319:	
+  2399  01C1                     _TMR4_SetInterruptHandler:
+  2400  01C1                     l2319:	
   2401                           ;incstack = 0
   2402                           ; Regs used in _TMR4_SetInterruptHandler: [wreg]
   2403                           
   2404                           
   2405                           ;mcc_generated_files/tmr4.c: 133:     TMR4_InterruptHandler = InterruptHandler;
-  2406  01BF  0020               	movlb	0	; select bank0
-  2407  01C0  084B               	movf	TMR4_SetInterruptHandler@InterruptHandler+1,w
-  2408  01C1  00C5               	movwf	_TMR4_InterruptHandler+1
-  2409  01C2  084A               	movf	TMR4_SetInterruptHandler@InterruptHandler,w
-  2410  01C3  00C4               	movwf	_TMR4_InterruptHandler
-  2411  01C4                     l301:
-  2412  01C4  0008               	return
-  2413  01C5                     __end_of_TMR4_SetInterruptHandler:
+  2406  01C1  0020               	movlb	0	; select bank0
+  2407  01C2  084B               	movf	TMR4_SetInterruptHandler@InterruptHandler+1,w
+  2408  01C3  00C5               	movwf	_TMR4_InterruptHandler+1
+  2409  01C4  084A               	movf	TMR4_SetInterruptHandler@InterruptHandler,w
+  2410  01C5  00C4               	movwf	_TMR4_InterruptHandler
+  2411  01C6                     l301:
+  2412  01C6  0008               	return
+  2413  01C7                     __end_of_TMR4_SetInterruptHandler:
   2414                           
   2415                           	psect	text6
-  2416  01AA                     __ptext6:	
+  2416  01AC                     __ptext6:	
   2417 ;; *************** function _TMR2_Initialize *****************
   2418 ;; Defined at:
   2419 ;;		line 62 in file "mcc_generated_files/tmr2.c"
@@ -2461,35 +2461,35 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2446                           
   2447                           
   2448                           ;psect for function _TMR2_Initialize
-  2449  01AA                     _TMR2_Initialize:
-  2450  01AA                     l2407:	
+  2449  01AC                     _TMR2_Initialize:
+  2450  01AC                     l2407:	
   2451                           ;incstack = 0
   2452                           ; Regs used in _TMR2_Initialize: [wreg+status,2]
   2453                           
   2454                           
   2455                           ;mcc_generated_files/tmr2.c: 67:     PR2 = 0x01;
-  2456  01AA  3001               	movlw	1
-  2457  01AB  0020               	movlb	0	; select bank0
-  2458  01AC  009B               	movwf	27	;volatile
-  2459  01AD                     l2409:
+  2456  01AC  3001               	movlw	1
+  2457  01AD  0020               	movlb	0	; select bank0
+  2458  01AE  009B               	movwf	27	;volatile
+  2459  01AF                     l2409:
   2460                           
   2461                           ;mcc_generated_files/tmr2.c: 70:     TMR2 = 0x00;
-  2462  01AD  019A               	clrf	26	;volatile
-  2463  01AE                     l2411:
+  2462  01AF  019A               	clrf	26	;volatile
+  2463  01B0                     l2411:
   2464                           
   2465                           ;mcc_generated_files/tmr2.c: 73:     PIR1bits.TMR2IF = 0;
-  2466  01AE  1091               	bcf	17,1	;volatile
-  2467  01AF                     l2413:
+  2466  01B0  1091               	bcf	17,1	;volatile
+  2467  01B1                     l2413:
   2468                           
   2469                           ;mcc_generated_files/tmr2.c: 76:     T2CON = 0x07;
-  2470  01AF  3007               	movlw	7
-  2471  01B0  009C               	movwf	28	;volatile
-  2472  01B1                     l699:
-  2473  01B1  0008               	return
-  2474  01B2                     __end_of_TMR2_Initialize:
+  2470  01B1  3007               	movlw	7
+  2471  01B2  009C               	movwf	28	;volatile
+  2472  01B3                     l699:
+  2473  01B3  0008               	return
+  2474  01B4                     __end_of_TMR2_Initialize:
   2475                           
   2476                           	psect	text7
-  2477  011B                     __ptext7:	
+  2477  011D                     __ptext7:	
   2478 ;; *************** function _TMR1_Initialize *****************
   2479 ;; Defined at:
   2480 ;;		line 64 in file "mcc_generated_files/tmr1.c"
@@ -2522,69 +2522,69 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2507                           
   2508                           
   2509                           ;psect for function _TMR1_Initialize
-  2510  011B                     _TMR1_Initialize:
-  2511  011B                     l2415:	
+  2510  011D                     _TMR1_Initialize:
+  2511  011D                     l2415:	
   2512                           ;incstack = 0
   2513                           ; Regs used in _TMR1_Initialize: [wreg+status,2+status,0+pclath+cstack]
   2514                           
   2515                           
   2516                           ;mcc_generated_files/tmr1.c: 69:     T1GCON = 0x00;
-  2517  011B  0020               	movlb	0	; select bank0
-  2518  011C  0199               	clrf	25	;volatile
-  2519  011D                     l2417:
+  2517  011D  0020               	movlb	0	; select bank0
+  2518  011E  0199               	clrf	25	;volatile
+  2519  011F                     l2417:
   2520                           
   2521                           ;mcc_generated_files/tmr1.c: 72:     TMR1H = 0x0B;
-  2522  011D  300B               	movlw	11
-  2523  011E  0097               	movwf	23	;volatile
-  2524  011F                     l2419:
+  2522  011F  300B               	movlw	11
+  2523  0120  0097               	movwf	23	;volatile
+  2524  0121                     l2419:
   2525                           
   2526                           ;mcc_generated_files/tmr1.c: 75:     TMR1L = 0xDC;
-  2527  011F  30DC               	movlw	220
-  2528  0120  0096               	movwf	22	;volatile
-  2529  0121                     l2421:
+  2527  0121  30DC               	movlw	220
+  2528  0122  0096               	movwf	22	;volatile
+  2529  0123                     l2421:
   2530                           
   2531                           ;mcc_generated_files/tmr1.c: 78:     PIR1bits.TMR1IF = 0;
-  2532  0121  1011               	bcf	17,0	;volatile
-  2533  0122                     l2423:
+  2532  0123  1011               	bcf	17,0	;volatile
+  2533  0124                     l2423:
   2534                           
   2535                           ;mcc_generated_files/tmr1.c: 81:     timer1ReloadVal=(uint16_t)((TMR1H << 8) | TMR1L);
-  2536  0122  0817               	movf	23,w	;volatile
-  2537  0123  00FC               	movwf	_timer1ReloadVal+1	;volatile
-  2538  0124  0816               	movf	22,w	;volatile
-  2539  0125  00FB               	movwf	_timer1ReloadVal	;volatile
-  2540  0126                     l2425:
+  2536  0124  0817               	movf	23,w	;volatile
+  2537  0125  00FC               	movwf	_timer1ReloadVal+1	;volatile
+  2538  0126  0816               	movf	22,w	;volatile
+  2539  0127  00FB               	movwf	_timer1ReloadVal	;volatile
+  2540  0128                     l2425:
   2541                           
   2542                           ;mcc_generated_files/tmr1.c: 84:     PIE1bits.TMR1IE = 1;
-  2543  0126  0021               	movlb	1	; select bank1
-  2544  0127  1411               	bsf	17,0	;volatile
-  2545  0128                     l2427:
+  2543  0128  0021               	movlb	1	; select bank1
+  2544  0129  1411               	bsf	17,0	;volatile
+  2545  012A                     l2427:
   2546                           
   2547                           ;mcc_generated_files/tmr1.c: 87:     TMR1_SetInterruptHandler(TMR1_DefaultInterruptHandl
       +                          er);
-  2548  0128  30D7               	movlw	low _TMR1_DefaultInterruptHandler
-  2549  0129  0020               	movlb	0	; select bank0
-  2550  012A  00CA               	movwf	TMR1_SetInterruptHandler@InterruptHandler
-  2551  012B  3001               	movlw	high _TMR1_DefaultInterruptHandler
-  2552  012C  00CB               	movwf	TMR1_SetInterruptHandler@InterruptHandler+1
-  2553  012D  3181  21C5  3181   	fcall	_TMR1_SetInterruptHandler
-  2554  0130                     l2429:
+  2548  012A  30D9               	movlw	low _TMR1_DefaultInterruptHandler
+  2549  012B  0020               	movlb	0	; select bank0
+  2550  012C  00CA               	movwf	TMR1_SetInterruptHandler@InterruptHandler
+  2551  012D  3001               	movlw	high _TMR1_DefaultInterruptHandler
+  2552  012E  00CB               	movwf	TMR1_SetInterruptHandler@InterruptHandler+1
+  2553  012F  3181  21C7  3181   	fcall	_TMR1_SetInterruptHandler
+  2554  0132                     l2429:
   2555                           
   2556                           ;mcc_generated_files/tmr1.c: 90:     T1CON = 0x31;
-  2557  0130  3031               	movlw	49
-  2558  0131  0020               	movlb	0	; select bank0
-  2559  0132  0098               	movwf	24	;volatile
-  2560  0133                     l745:
-  2561  0133  0008               	return
-  2562  0134                     __end_of_TMR1_Initialize:
+  2557  0132  3031               	movlw	49
+  2558  0133  0020               	movlb	0	; select bank0
+  2559  0134  0098               	movwf	24	;volatile
+  2560  0135                     l745:
+  2561  0135  0008               	return
+  2562  0136                     __end_of_TMR1_Initialize:
   2563                           
   2564                           	psect	text8
-  2565  01C5                     __ptext8:	
+  2565  01C7                     __ptext8:	
   2566 ;; *************** function _TMR1_SetInterruptHandler *****************
   2567 ;; Defined at:
   2568 ;;		line 171 in file "mcc_generated_files/tmr1.c"
   2569 ;; Parameters:    Size  Location     Type
   2570 ;;  InterruptHan    2    0[BANK0 ] PTR FTN()void 
-  2571 ;;		 -> toggle_LED(1), TMR1_DefaultInterruptHandler(1), 
+  2571 ;;		 -> update_counter(1), TMR1_DefaultInterruptHandler(1), 
   2572 ;; Auto vars:     Size  Location     Type
   2573 ;;		None
   2574 ;; Return value:  Size  Location     Type
@@ -2613,24 +2613,24 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2597                           
   2598                           
   2599                           ;psect for function _TMR1_SetInterruptHandler
-  2600  01C5                     _TMR1_SetInterruptHandler:
-  2601  01C5                     l2321:	
+  2600  01C7                     _TMR1_SetInterruptHandler:
+  2601  01C7                     l2321:	
   2602                           ;incstack = 0
   2603                           ; Regs used in _TMR1_SetInterruptHandler: [wreg]
   2604                           
   2605                           
   2606                           ;mcc_generated_files/tmr1.c: 172:     TMR1_InterruptHandler = InterruptHandler;
-  2607  01C5  0020               	movlb	0	; select bank0
-  2608  01C6  084B               	movf	TMR1_SetInterruptHandler@InterruptHandler+1,w
-  2609  01C7  00C3               	movwf	_TMR1_InterruptHandler+1
-  2610  01C8  084A               	movf	TMR1_SetInterruptHandler@InterruptHandler,w
-  2611  01C9  00C2               	movwf	_TMR1_InterruptHandler
-  2612  01CA                     l775:
-  2613  01CA  0008               	return
-  2614  01CB                     __end_of_TMR1_SetInterruptHandler:
+  2607  01C7  0020               	movlb	0	; select bank0
+  2608  01C8  084B               	movf	TMR1_SetInterruptHandler@InterruptHandler+1,w
+  2609  01C9  00C3               	movwf	_TMR1_InterruptHandler+1
+  2610  01CA  084A               	movf	TMR1_SetInterruptHandler@InterruptHandler,w
+  2611  01CB  00C2               	movwf	_TMR1_InterruptHandler
+  2612  01CC                     l775:
+  2613  01CC  0008               	return
+  2614  01CD                     __end_of_TMR1_SetInterruptHandler:
   2615                           
   2616                           	psect	text9
-  2617  0134                     __ptext9:	
+  2617  0136                     __ptext9:	
   2618 ;; *************** function _PIN_MANAGER_Initialize *****************
   2619 ;; Defined at:
   2620 ;;		line 55 in file "mcc_generated_files/pin_manager.c"
@@ -2663,71 +2663,71 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2647                           
   2648                           
   2649                           ;psect for function _PIN_MANAGER_Initialize
-  2650  0134                     _PIN_MANAGER_Initialize:
-  2651  0134                     l2343:	
+  2650  0136                     _PIN_MANAGER_Initialize:
+  2651  0136                     l2343:	
   2652                           ;incstack = 0
   2653                           ; Regs used in _PIN_MANAGER_Initialize: [wreg+status,2]
   2654                           
   2655                           
   2656                           ;mcc_generated_files/pin_manager.c: 60:     LATA = 0x02;
-  2657  0134  3002               	movlw	2
-  2658  0135  0022               	movlb	2	; select bank2
-  2659  0136  008C               	movwf	12	;volatile
-  2660  0137                     l2345:
+  2657  0136  3002               	movlw	2
+  2658  0137  0022               	movlb	2	; select bank2
+  2659  0138  008C               	movwf	12	;volatile
+  2660  0139                     l2345:
   2661                           
   2662                           ;mcc_generated_files/pin_manager.c: 61:     LATB = 0x00;
-  2663  0137  018D               	clrf	13	;volatile
-  2664  0138                     l2347:
+  2663  0139  018D               	clrf	13	;volatile
+  2664  013A                     l2347:
   2665                           
   2666                           ;mcc_generated_files/pin_manager.c: 66:     TRISA = 0xFD;
-  2667  0138  30FD               	movlw	253
-  2668  0139  0021               	movlb	1	; select bank1
-  2669  013A  008C               	movwf	12	;volatile
-  2670  013B                     l2349:
+  2667  013A  30FD               	movlw	253
+  2668  013B  0021               	movlb	1	; select bank1
+  2669  013C  008C               	movwf	12	;volatile
+  2670  013D                     l2349:
   2671                           
   2672                           ;mcc_generated_files/pin_manager.c: 67:     TRISB = 0xF7;
-  2673  013B  30F7               	movlw	247
-  2674  013C  008D               	movwf	13	;volatile
-  2675  013D                     l2351:
+  2673  013D  30F7               	movlw	247
+  2674  013E  008D               	movwf	13	;volatile
+  2675  013F                     l2351:
   2676                           
   2677                           ;mcc_generated_files/pin_manager.c: 72:     ANSELB = 0xE4;
-  2678  013D  30E4               	movlw	228
-  2679  013E  0023               	movlb	3	; select bank3
-  2680  013F  008D               	movwf	13	;volatile
-  2681  0140                     l2353:
+  2678  013F  30E4               	movlw	228
+  2679  0140  0023               	movlb	3	; select bank3
+  2680  0141  008D               	movwf	13	;volatile
+  2681  0142                     l2353:
   2682                           
   2683                           ;mcc_generated_files/pin_manager.c: 73:     ANSELA = 0x1F;
-  2684  0140  301F               	movlw	31
-  2685  0141  008C               	movwf	12	;volatile
-  2686  0142                     l2355:
+  2684  0142  301F               	movlw	31
+  2685  0143  008C               	movwf	12	;volatile
+  2686  0144                     l2355:
   2687                           
   2688                           ;mcc_generated_files/pin_manager.c: 78:     WPUB = 0x00;
-  2689  0142  0024               	movlb	4	; select bank4
-  2690  0143  018D               	clrf	13	;volatile
-  2691  0144                     l2357:
+  2689  0144  0024               	movlb	4	; select bank4
+  2690  0145  018D               	clrf	13	;volatile
+  2691  0146                     l2357:
   2692                           
   2693                           ;mcc_generated_files/pin_manager.c: 79:     WPUA = 0x00;
-  2694  0144  018C               	clrf	12	;volatile
-  2695  0145                     l2359:
+  2694  0146  018C               	clrf	12	;volatile
+  2695  0147                     l2359:
   2696                           
   2697                           ;mcc_generated_files/pin_manager.c: 80:     OPTION_REGbits.nWPUEN = 1;
-  2698  0145  0021               	movlb	1	; select bank1
-  2699  0146  1795               	bsf	21,7	;volatile
-  2700  0147                     l2361:
+  2698  0147  0021               	movlb	1	; select bank1
+  2699  0148  1795               	bsf	21,7	;volatile
+  2700  0149                     l2361:
   2701                           
   2702                           ;mcc_generated_files/pin_manager.c: 86:     APFCON0 = 0x00;
-  2703  0147  0022               	movlb	2	; select bank2
-  2704  0148  019D               	clrf	29	;volatile
-  2705  0149                     l2363:
+  2703  0149  0022               	movlb	2	; select bank2
+  2704  014A  019D               	clrf	29	;volatile
+  2705  014B                     l2363:
   2706                           
   2707                           ;mcc_generated_files/pin_manager.c: 87:     APFCON1 = 0x00;
-  2708  0149  019E               	clrf	30	;volatile
-  2709  014A                     l222:
-  2710  014A  0008               	return
-  2711  014B                     __end_of_PIN_MANAGER_Initialize:
+  2708  014B  019E               	clrf	30	;volatile
+  2709  014C                     l222:
+  2710  014C  0008               	return
+  2711  014D                     __end_of_PIN_MANAGER_Initialize:
   2712                           
   2713                           	psect	text10
-  2714  01B2                     __ptext10:	
+  2714  01B4                     __ptext10:	
   2715 ;; *************** function _OSCILLATOR_Initialize *****************
   2716 ;; Defined at:
   2717 ;;		line 63 in file "mcc_generated_files/mcc.c"
@@ -2760,31 +2760,31 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2744                           
   2745                           
   2746                           ;psect for function _OSCILLATOR_Initialize
-  2747  01B2                     _OSCILLATOR_Initialize:
-  2748  01B2                     l2373:	
+  2747  01B4                     _OSCILLATOR_Initialize:
+  2748  01B4                     l2373:	
   2749                           ;incstack = 0
   2750                           ; Regs used in _OSCILLATOR_Initialize: [wreg+status,2]
   2751                           
   2752                           
   2753                           ;mcc_generated_files/mcc.c: 66:     OSCCON = 0x38;
-  2754  01B2  3038               	movlw	56
-  2755  01B3  0021               	movlb	1	; select bank1
-  2756  01B4  0099               	movwf	25	;volatile
-  2757  01B5                     l2375:
+  2754  01B4  3038               	movlw	56
+  2755  01B5  0021               	movlb	1	; select bank1
+  2756  01B6  0099               	movwf	25	;volatile
+  2757  01B7                     l2375:
   2758                           
   2759                           ;mcc_generated_files/mcc.c: 68:     OSCTUNE = 0x00;
-  2760  01B5  0198               	clrf	24	;volatile
-  2761  01B6                     l2377:
+  2760  01B7  0198               	clrf	24	;volatile
+  2761  01B8                     l2377:
   2762                           
   2763                           ;mcc_generated_files/mcc.c: 70:     BORCON = 0x00;
-  2764  01B6  0022               	movlb	2	; select bank2
-  2765  01B7  0196               	clrf	22	;volatile
-  2766  01B8                     l255:
-  2767  01B8  0008               	return
-  2768  01B9                     __end_of_OSCILLATOR_Initialize:
+  2764  01B8  0022               	movlb	2	; select bank2
+  2765  01B9  0196               	clrf	22	;volatile
+  2766  01BA                     l255:
+  2767  01BA  0008               	return
+  2768  01BB                     __end_of_OSCILLATOR_Initialize:
   2769                           
   2770                           	psect	text11
-  2771  01A1                     __ptext11:	
+  2771  01A3                     __ptext11:	
   2772 ;; *************** function _I2C1_Initialize *****************
   2773 ;; Defined at:
   2774 ;;		line 167 in file "mcc_generated_files/i2c1_master.c"
@@ -2817,38 +2817,38 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2801                           
   2802                           
   2803                           ;psect for function _I2C1_Initialize
-  2804  01A1                     _I2C1_Initialize:
-  2805  01A1                     l2365:	
+  2804  01A3                     _I2C1_Initialize:
+  2805  01A3                     l2365:	
   2806                           ;incstack = 0
   2807                           ; Regs used in _I2C1_Initialize: [wreg+status,2]
   2808                           
   2809                           
   2810                           ;mcc_generated_files/i2c1_master.c: 169:     SSP1STAT = 0x00;
-  2811  01A1  0024               	movlb	4	; select bank4
-  2812  01A2  0194               	clrf	20	;volatile
-  2813  01A3                     l2367:
+  2811  01A3  0024               	movlb	4	; select bank4
+  2812  01A4  0194               	clrf	20	;volatile
+  2813  01A5                     l2367:
   2814                           
   2815                           ;mcc_generated_files/i2c1_master.c: 170:     SSP1CON1 = 0x08;
-  2816  01A3  3008               	movlw	8
-  2817  01A4  0095               	movwf	21	;volatile
-  2818  01A5                     l2369:
+  2816  01A5  3008               	movlw	8
+  2817  01A6  0095               	movwf	21	;volatile
+  2818  01A7                     l2369:
   2819                           
   2820                           ;mcc_generated_files/i2c1_master.c: 171:     SSP1CON2 = 0x00;
-  2821  01A5  0196               	clrf	22	;volatile
+  2821  01A7  0196               	clrf	22	;volatile
   2822                           
   2823                           ;mcc_generated_files/i2c1_master.c: 172:     SSP1ADD = 0x03;
-  2824  01A6  3003               	movlw	3
-  2825  01A7  0092               	movwf	18	;volatile
-  2826  01A8                     l2371:
+  2824  01A8  3003               	movlw	3
+  2825  01A9  0092               	movwf	18	;volatile
+  2826  01AA                     l2371:
   2827                           
   2828                           ;mcc_generated_files/i2c1_master.c: 173:     SSP1CON1bits.SSPEN = 0;
-  2829  01A8  1295               	bcf	21,5	;volatile
-  2830  01A9                     l436:
-  2831  01A9  0008               	return
-  2832  01AA                     __end_of_I2C1_Initialize:
+  2829  01AA  1295               	bcf	21,5	;volatile
+  2830  01AB                     l436:
+  2831  01AB  0008               	return
+  2832  01AC                     __end_of_I2C1_Initialize:
   2833                           
   2834                           	psect	text12
-  2835  0194                     __ptext12:	
+  2835  0196                     __ptext12:	
   2836 ;; *************** function _EPWM1_Initialize *****************
   2837 ;; Defined at:
   2838 ;;		line 64 in file "mcc_generated_files/epwm1.c"
@@ -2881,46 +2881,46 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2865                           
   2866                           
   2867                           ;psect for function _EPWM1_Initialize
-  2868  0194                     _EPWM1_Initialize:
-  2869  0194                     l2381:	
+  2868  0196                     _EPWM1_Initialize:
+  2869  0196                     l2381:	
   2870                           ;incstack = 0
   2871                           ; Regs used in _EPWM1_Initialize: [wreg+status,2+status,0]
   2872                           
   2873                           
   2874                           ;mcc_generated_files/epwm1.c: 69:  CCP1CON = 0x3C;
-  2875  0194  303C               	movlw	60
-  2876  0195  0025               	movlb	5	; select bank5
-  2877  0196  0093               	movwf	19	;volatile
-  2878  0197                     l2383:
+  2875  0196  303C               	movlw	60
+  2876  0197  0025               	movlb	5	; select bank5
+  2877  0198  0093               	movwf	19	;volatile
+  2878  0199                     l2383:
   2879                           
   2880                           ;mcc_generated_files/epwm1.c: 72:  ECCP1AS = 0x00;
-  2881  0197  0195               	clrf	21	;volatile
-  2882  0198                     l2385:
+  2881  0199  0195               	clrf	21	;volatile
+  2882  019A                     l2385:
   2883                           
   2884                           ;mcc_generated_files/epwm1.c: 75:  PWM1CON = 0x80;
-  2885  0198  3080               	movlw	128
-  2886  0199  0094               	movwf	20	;volatile
-  2887  019A                     l2387:
+  2885  019A  3080               	movlw	128
+  2886  019B  0094               	movwf	20	;volatile
+  2887  019C                     l2387:
   2888                           
   2889                           ;mcc_generated_files/epwm1.c: 78:  PSTR1CON = 0x01;
-  2890  019A  3001               	movlw	1
-  2891  019B  0096               	movwf	22	;volatile
-  2892  019C                     l2389:
+  2890  019C  3001               	movlw	1
+  2891  019D  0096               	movwf	22	;volatile
+  2892  019E                     l2389:
   2893                           
   2894                           ;mcc_generated_files/epwm1.c: 81:  CCPR1H = 0x00;
-  2895  019C  0192               	clrf	18	;volatile
-  2896  019D                     l2391:
+  2895  019E  0192               	clrf	18	;volatile
+  2896  019F                     l2391:
   2897                           
   2898                           ;mcc_generated_files/epwm1.c: 84:  CCPR1L = 0x00;
-  2899  019D  0191               	clrf	17	;volatile
-  2900  019E                     l2393:
+  2899  019F  0191               	clrf	17	;volatile
+  2900  01A0                     l2393:
   2901                           
   2902                           ;mcc_generated_files/epwm1.c: 87:  CCPTMRS0bits.C1TSEL = 0x0;
-  2903  019E  30FC               	movlw	-4
-  2904  019F  059E               	andwf	30,f	;volatile
-  2905  01A0                     l683:
-  2906  01A0  0008               	return
-  2907  01A1                     __end_of_EPWM1_Initialize:
+  2903  01A0  30FC               	movlw	-4
+  2904  01A1  059E               	andwf	30,f	;volatile
+  2905  01A2                     l683:
+  2906  01A2  0008               	return
+  2907  01A3                     __end_of_EPWM1_Initialize:
   2908                           
   2909                           	psect	intentry
   2910  0004                     __pintentry:	
@@ -2994,7 +2994,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2977                           
   2978                           ;mcc_generated_files/interrupt_manager.c: 58:         {;mcc_generated_files/interrupt_ma
       +                          nager.c: 59:             TMR4_ISR();
-  2979  0014  3181  2186  3180   	fcall	_TMR4_ISR
+  2979  0014  3181  2188  3180   	fcall	_TMR4_ISR
   2980                           
   2981                           ;mcc_generated_files/interrupt_manager.c: 60:         }
   2982  0017  2826               	goto	i1l329
@@ -3021,7 +3021,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3002                           
   3003                           ;mcc_generated_files/interrupt_manager.c: 62:         {;mcc_generated_files/interrupt_ma
       +                          nager.c: 63:             TMR1_ISR();
-  3004  0022  3181  214B  3180   	fcall	_TMR1_ISR
+  3004  0022  3181  214D  3180   	fcall	_TMR1_ISR
   3005                           
   3006                           ;mcc_generated_files/interrupt_manager.c: 64:         }
   3007  0025  2826               	goto	i1l329
@@ -3034,7 +3034,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3014  0028                     __end_of_INTERRUPT_InterruptManager:
   3015                           
   3016                           	psect	text14
-  3017  0186                     __ptext14:	
+  3017  0188                     __ptext14:	
   3018 ;; *************** function _TMR4_ISR *****************
   3019 ;; Defined at:
   3020 ;;		line 119 in file "mcc_generated_files/tmr4.c"
@@ -3068,41 +3068,41 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3048                           
   3049                           
   3050                           ;psect for function _TMR4_ISR
-  3051  0186                     _TMR4_ISR:
-  3052  0186                     i1l2455:	
+  3051  0188                     _TMR4_ISR:
+  3052  0188                     i1l2455:	
   3053                           ;incstack = 0
   3054                           ; Regs used in _TMR4_ISR: [wreg+status,2+status,0+pclath+cstack]
   3055                           
   3056                           
   3057                           ;mcc_generated_files/tmr4.c: 123:     PIR3bits.TMR4IF = 0;
-  3058  0186  0020               	movlb	0	; select bank0
-  3059  0187  1093               	bcf	19,1	;volatile
-  3060  0188                     i1l2457:
+  3058  0188  0020               	movlb	0	; select bank0
+  3059  0189  1093               	bcf	19,1	;volatile
+  3060  018A                     i1l2457:
   3061                           
   3062                           ;mcc_generated_files/tmr4.c: 125:     if(TMR4_InterruptHandler)
-  3063  0188  0844               	movf	_TMR4_InterruptHandler,w
-  3064  0189  0445               	iorwf	_TMR4_InterruptHandler+1,w
-  3065  018A  1903               	btfsc	3,2
-  3066  018B  298D               	goto	u72_21
-  3067  018C  298E               	goto	u72_20
-  3068  018D                     u72_21:
-  3069  018D  2993               	goto	i1l298
-  3070  018E                     u72_20:
-  3071  018E                     i1l2459:
+  3063  018A  0844               	movf	_TMR4_InterruptHandler,w
+  3064  018B  0445               	iorwf	_TMR4_InterruptHandler+1,w
+  3065  018C  1903               	btfsc	3,2
+  3066  018D  298F               	goto	u72_21
+  3067  018E  2990               	goto	u72_20
+  3068  018F                     u72_21:
+  3069  018F  2995               	goto	i1l298
+  3070  0190                     u72_20:
+  3071  0190                     i1l2459:
   3072                           
   3073                           ;mcc_generated_files/tmr4.c: 126:     {;mcc_generated_files/tmr4.c: 127:         TMR4_In
       +                          terruptHandler();
-  3074  018E  0845               	movf	_TMR4_InterruptHandler+1,w
-  3075  018F  008A               	movwf	10
-  3076  0190  0844               	movf	_TMR4_InterruptHandler,w
-  3077  0191  000A               	callw
-  3078  0192  3181               	pagesel	$
-  3079  0193                     i1l298:
-  3080  0193  0008               	return
-  3081  0194                     __end_of_TMR4_ISR:
+  3074  0190  0845               	movf	_TMR4_InterruptHandler+1,w
+  3075  0191  008A               	movwf	10
+  3076  0192  0844               	movf	_TMR4_InterruptHandler,w
+  3077  0193  000A               	callw
+  3078  0194  3181               	pagesel	$
+  3079  0195                     i1l298:
+  3080  0195  0008               	return
+  3081  0196                     __end_of_TMR4_ISR:
   3082                           
   3083                           	psect	text15
-  3084  01D6                     __ptext15:	
+  3084  01D8                     __ptext15:	
   3085 ;; *************** function _TMR4_DefaultInterruptHandler *****************
   3086 ;; Defined at:
   3087 ;;		line 136 in file "mcc_generated_files/tmr4.c"
@@ -3135,16 +3135,16 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3114                           
   3115                           
   3116                           ;psect for function _TMR4_DefaultInterruptHandler
-  3117  01D6                     _TMR4_DefaultInterruptHandler:
-  3118  01D6                     i1l304:	
+  3117  01D8                     _TMR4_DefaultInterruptHandler:
+  3118  01D8                     i1l304:	
   3119                           ;incstack = 0
   3120                           ; Regs used in _TMR4_DefaultInterruptHandler: []
   3121                           
-  3122  01D6  0008               	return
-  3123  01D7                     __end_of_TMR4_DefaultInterruptHandler:
+  3122  01D8  0008               	return
+  3123  01D9                     __end_of_TMR4_DefaultInterruptHandler:
   3124                           
   3125                           	psect	text16
-  3126  014B                     __ptext16:	
+  3126  014D                     __ptext16:	
   3127 ;; *************** function _TMR1_ISR *****************
   3128 ;; Defined at:
   3129 ;;		line 157 in file "mcc_generated_files/tmr1.c"
@@ -3172,7 +3172,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3151 ;;		Absolute function
   3152 ;;		_TMR1_DefaultInterruptHandler
   3153 ;;		_TMR1_WriteTimer
-  3154 ;;		_toggle_LED
+  3154 ;;		_update_counter
   3155 ;; This function is called by:
   3156 ;;		_INTERRUPT_InterruptManager
   3157 ;; This function uses a non-reentrant model
@@ -3180,50 +3180,50 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3159                           
   3160                           
   3161                           ;psect for function _TMR1_ISR
-  3162  014B                     _TMR1_ISR:
-  3163  014B                     i1l2461:	
+  3162  014D                     _TMR1_ISR:
+  3163  014D                     i1l2461:	
   3164                           ;incstack = 0
   3165                           ; Regs used in _TMR1_ISR: [wreg+status,2+status,0+pclath+cstack]
   3166                           
   3167                           
   3168                           ;mcc_generated_files/tmr1.c: 161:     PIR1bits.TMR1IF = 0;
-  3169  014B  0020               	movlb	0	; select bank0
-  3170  014C  1011               	bcf	17,0	;volatile
-  3171  014D                     i1l2463:
+  3169  014D  0020               	movlb	0	; select bank0
+  3170  014E  1011               	bcf	17,0	;volatile
+  3171  014F                     i1l2463:
   3172                           
   3173                           ;mcc_generated_files/tmr1.c: 162:     TMR1_WriteTimer(timer1ReloadVal);
-  3174  014D  087C               	movf	_timer1ReloadVal+1,w	;volatile
-  3175  014E  00F1               	movwf	TMR1_WriteTimer@timerVal+1
-  3176  014F  087B               	movf	_timer1ReloadVal,w	;volatile
-  3177  0150  00F0               	movwf	TMR1_WriteTimer@timerVal
-  3178  0151  3181  2175  3181   	fcall	_TMR1_WriteTimer
-  3179  0154                     i1l2465:
+  3174  014F  087C               	movf	_timer1ReloadVal+1,w	;volatile
+  3175  0150  00F1               	movwf	TMR1_WriteTimer@timerVal+1
+  3176  0151  087B               	movf	_timer1ReloadVal,w	;volatile
+  3177  0152  00F0               	movwf	TMR1_WriteTimer@timerVal
+  3178  0153  3181  2177  3181   	fcall	_TMR1_WriteTimer
+  3179  0156                     i1l2465:
   3180                           
   3181                           ;mcc_generated_files/tmr1.c: 164:     if(TMR1_InterruptHandler)
-  3182  0154  0020               	movlb	0	; select bank0
-  3183  0155  0842               	movf	_TMR1_InterruptHandler,w
-  3184  0156  0443               	iorwf	_TMR1_InterruptHandler+1,w
-  3185  0157  1903               	btfsc	3,2
-  3186  0158  295A               	goto	u73_21
-  3187  0159  295B               	goto	u73_20
-  3188  015A                     u73_21:
-  3189  015A  2960               	goto	i1l772
-  3190  015B                     u73_20:
-  3191  015B                     i1l2467:
+  3182  0156  0020               	movlb	0	; select bank0
+  3183  0157  0842               	movf	_TMR1_InterruptHandler,w
+  3184  0158  0443               	iorwf	_TMR1_InterruptHandler+1,w
+  3185  0159  1903               	btfsc	3,2
+  3186  015A  295C               	goto	u73_21
+  3187  015B  295D               	goto	u73_20
+  3188  015C                     u73_21:
+  3189  015C  2962               	goto	i1l772
+  3190  015D                     u73_20:
+  3191  015D                     i1l2467:
   3192                           
   3193                           ;mcc_generated_files/tmr1.c: 165:     {;mcc_generated_files/tmr1.c: 166:         TMR1_In
       +                          terruptHandler();
-  3194  015B  0843               	movf	_TMR1_InterruptHandler+1,w
-  3195  015C  008A               	movwf	10
-  3196  015D  0842               	movf	_TMR1_InterruptHandler,w
-  3197  015E  000A               	callw
-  3198  015F  3181               	pagesel	$
-  3199  0160                     i1l772:
-  3200  0160  0008               	return
-  3201  0161                     __end_of_TMR1_ISR:
+  3194  015D  0843               	movf	_TMR1_InterruptHandler+1,w
+  3195  015E  008A               	movwf	10
+  3196  015F  0842               	movf	_TMR1_InterruptHandler,w
+  3197  0160  000A               	callw
+  3198  0161  3181               	pagesel	$
+  3199  0162                     i1l772:
+  3200  0162  0008               	return
+  3201  0163                     __end_of_TMR1_ISR:
   3202                           
   3203                           	psect	text17
-  3204  01D7                     __ptext17:	
+  3204  01D9                     __ptext17:	
   3205 ;; *************** function _TMR1_DefaultInterruptHandler *****************
   3206 ;; Defined at:
   3207 ;;		line 175 in file "mcc_generated_files/tmr1.c"
@@ -3256,17 +3256,17 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3234                           
   3235                           
   3236                           ;psect for function _TMR1_DefaultInterruptHandler
-  3237  01D7                     _TMR1_DefaultInterruptHandler:
-  3238  01D7                     i1l778:	
+  3237  01D9                     _TMR1_DefaultInterruptHandler:
+  3238  01D9                     i1l778:	
   3239                           ;incstack = 0
   3240                           ; Regs used in _TMR1_DefaultInterruptHandler: []
   3241                           
-  3242  01D7  0008               	return
-  3243  01D8                     __end_of_TMR1_DefaultInterruptHandler:
+  3242  01D9  0008               	return
+  3243  01DA                     __end_of_TMR1_DefaultInterruptHandler:
   3244                           
   3245                           	psect	text18
   3246  0090                     __ptext18:	
-  3247 ;; *************** function _toggle_LED *****************
+  3247 ;; *************** function _update_counter *****************
   3248 ;; Defined at:
   3249 ;;		line 59 in file "main.c"
   3250 ;; Parameters:    Size  Location     Type
@@ -3298,25 +3298,25 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3276 ;;
   3277                           
   3278                           
-  3279                           ;psect for function _toggle_LED
-  3280  0090                     _toggle_LED:
+  3279                           ;psect for function _update_counter
+  3280  0090                     _update_counter:
   3281  0090                     i1l2445:	
   3282                           ;incstack = 0
-  3283                           ; Regs used in _toggle_LED: [wreg+status,2+status,0+pclath+cstack]
+  3283                           ; Regs used in _update_counter: [wreg+status,2+status,0+pclath+cstack]
   3284                           
   3285                           
   3286                           ;main.c: 61:     LATAbits.LATA1^=1;
   3287  0090  0022               	movlb	2	; select bank2
   3288  0091  0C0C               	rrf	12,w	;volatile
   3289  0092  3901               	andlw	1
-  3290  0093  00FA               	movwf	??_toggle_LED
+  3290  0093  00FA               	movwf	??_update_counter
   3291  0094  3001               	movlw	1
-  3292  0095  06FA               	xorwf	??_toggle_LED,f
-  3293  0096  0DFA               	rlf	??_toggle_LED,f
+  3292  0095  06FA               	xorwf	??_update_counter,f
+  3293  0096  0DFA               	rlf	??_update_counter,f
   3294  0097  080C               	movf	12,w	;volatile
-  3295  0098  067A               	xorwf	??_toggle_LED,w
+  3295  0098  067A               	xorwf	??_update_counter,w
   3296  0099  39FD               	andlw	-3
-  3297  009A  067A               	xorwf	??_toggle_LED,w
+  3297  009A  067A               	xorwf	??_update_counter,w
   3298  009B  008C               	movwf	12	;volatile
   3299  009C                     i1l2447:
   3300                           
@@ -3331,313 +3331,315 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3309  00A3  0846               	movf	_waiting_time,w
   3310  00A4  00F0               	movwf	___llmod@divisor
   3311  00A5  3001               	movlw	1
-  3312  00A6  073D               	addwf	_counter,w
+  3312  00A6  073D               	addwf	_counter,w	;volatile
   3313  00A7  00F4               	movwf	___llmod@dividend
   3314  00A8  3000               	movlw	0
-  3315  00A9  3D3E               	addwfc	_counter+1,w
+  3315  00A9  3D3E               	addwfc	_counter+1,w	;volatile
   3316  00AA  00F5               	movwf	___llmod@dividend+1
   3317  00AB  3000               	movlw	0
-  3318  00AC  3D3F               	addwfc	_counter+2,w
+  3318  00AC  3D3F               	addwfc	_counter+2,w	;volatile
   3319  00AD  00F6               	movwf	___llmod@dividend+2
   3320  00AE  3000               	movlw	0
-  3321  00AF  3D40               	addwfc	_counter+3,w
+  3321  00AF  3D40               	addwfc	_counter+3,w	;volatile
   3322  00B0  00F7               	movwf	___llmod@dividend+3
   3323  00B1  3180  2046  3180   	fcall	___llmod
   3324  00B4  0873               	movf	?___llmod+3,w
   3325  00B5  0020               	movlb	0	; select bank0
-  3326  00B6  00C0               	movwf	_counter+3
+  3326  00B6  00C0               	movwf	_counter+3	;volatile
   3327  00B7  0872               	movf	?___llmod+2,w
-  3328  00B8  00BF               	movwf	_counter+2
+  3328  00B8  00BF               	movwf	_counter+2	;volatile
   3329  00B9  0871               	movf	?___llmod+1,w
-  3330  00BA  00BE               	movwf	_counter+1
+  3330  00BA  00BE               	movwf	_counter+1	;volatile
   3331  00BB  0870               	movf	?___llmod,w
-  3332  00BC  00BD               	movwf	_counter
+  3332  00BC  00BD               	movwf	_counter	;volatile
   3333  00BD                     i1l2449:
   3334                           
   3335                           ;main.c: 63:     if(counter==0)
-  3336  00BD  0840               	movf	_counter+3,w
-  3337  00BE  043F               	iorwf	_counter+2,w
-  3338  00BF  043E               	iorwf	_counter+1,w
-  3339  00C0  043D               	iorwf	_counter,w
+  3336  00BD  0840               	movf	_counter+3,w	;volatile
+  3337  00BE  043F               	iorwf	_counter+2,w	;volatile
+  3338  00BF  043E               	iorwf	_counter+1,w	;volatile
+  3339  00C0  043D               	iorwf	_counter,w	;volatile
   3340  00C1  1D03               	skipz
   3341  00C2  28C4               	goto	u71_21
   3342  00C3  28C5               	goto	u71_20
   3343  00C4                     u71_21:
-  3344  00C4  28C7               	goto	i1l798
+  3344  00C4  28C9               	goto	i1l798
   3345  00C5                     u71_20:
   3346  00C5                     i1l2451:
   3347                           
   3348                           ;main.c: 64:         time_elapsed=1;
-  3349  00C5  01C1               	clrf	_time_elapsed
-  3350  00C6  0AC1               	incf	_time_elapsed,f
-  3351  00C7                     i1l798:
-  3352  00C7  0008               	return
-  3353  00C8                     __end_of_toggle_LED:
-  3354                           
-  3355                           	psect	text19
-  3356  0046                     __ptext19:	
-  3357 ;; *************** function ___llmod *****************
-  3358 ;; Defined at:
-  3359 ;;		line 5 in file "/opt/microchip/xc8/v2.32/pic/sources/c99/common/llmod.c"
-  3360 ;; Parameters:    Size  Location     Type
-  3361 ;;  divisor         4    0[COMMON] unsigned long 
-  3362 ;;  dividend        4    4[COMMON] unsigned long 
-  3363 ;; Auto vars:     Size  Location     Type
-  3364 ;;  counter         1    9[COMMON] unsigned char 
-  3365 ;; Return value:  Size  Location     Type
-  3366 ;;                  4    0[COMMON] unsigned long 
-  3367 ;; Registers used:
-  3368 ;;		wreg, status,2, status,0
-  3369 ;; Tracked objects:
-  3370 ;;		On entry : 0/0
-  3371 ;;		On exit  : 0/0
-  3372 ;;		Unchanged: 0/0
-  3373 ;; Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4
-  3374 ;;      Params:         8       0       0       0       0       0
-  3375 ;;      Locals:         1       0       0       0       0       0
-  3376 ;;      Temps:          1       0       0       0       0       0
-  3377 ;;      Totals:        10       0       0       0       0       0
-  3378 ;;Total ram usage:       10 bytes
-  3379 ;; Hardware stack levels used: 1
-  3380 ;; This function calls:
-  3381 ;;		Nothing
-  3382 ;; This function is called by:
-  3383 ;;		_toggle_LED
-  3384 ;; This function uses a non-reentrant model
-  3385 ;;
-  3386                           
-  3387                           
-  3388                           ;psect for function ___llmod
-  3389  0046                     ___llmod:
-  3390  0046                     i1l2323:	
-  3391                           ;incstack = 0
-  3392                           ; Regs used in ___llmod: [wreg+status,2+status,0]
-  3393                           
-  3394  0046  0873               	movf	___llmod@divisor+3,w
-  3395  0047  0472               	iorwf	___llmod@divisor+2,w
-  3396  0048  0471               	iorwf	___llmod@divisor+1,w
-  3397  0049  0470               	iorwf	___llmod@divisor,w
-  3398  004A  1903               	skipnz
-  3399  004B  284D               	goto	u64_21
-  3400  004C  284E               	goto	u64_20
-  3401  004D                     u64_21:
-  3402  004D  2887               	goto	i1l2339
-  3403  004E                     u64_20:
-  3404  004E                     i1l2325:
-  3405  004E  01F9               	clrf	___llmod@counter
-  3406  004F  0AF9               	incf	___llmod@counter,f
-  3407  0050  285C               	goto	i1l2329
-  3408  0051                     i1l2327:
-  3409  0051  3001               	movlw	1
-  3410  0052                     u65_25:
-  3411  0052  35F0               	lslf	___llmod@divisor,f
-  3412  0053  0DF1               	rlf	___llmod@divisor+1,f
-  3413  0054  0DF2               	rlf	___llmod@divisor+2,f
-  3414  0055  0DF3               	rlf	___llmod@divisor+3,f
-  3415  0056  0B89               	decfsz	9,f
-  3416  0057  2852               	goto	u65_25
-  3417  0058  3001               	movlw	1
-  3418  0059  00F8               	movwf	??___llmod
-  3419  005A  0878               	movf	??___llmod,w
-  3420  005B  07F9               	addwf	___llmod@counter,f
-  3421  005C                     i1l2329:
-  3422  005C  1FF3               	btfss	___llmod@divisor+3,7
-  3423  005D  285F               	goto	u66_21
-  3424  005E  2860               	goto	u66_20
-  3425  005F                     u66_21:
-  3426  005F  2851               	goto	i1l2327
-  3427  0060                     u66_20:
-  3428  0060                     i1l2331:
-  3429  0060  0873               	movf	___llmod@divisor+3,w
-  3430  0061  0277               	subwf	___llmod@dividend+3,w
-  3431  0062  1D03               	skipz
-  3432  0063  286E               	goto	u67_25
-  3433  0064  0872               	movf	___llmod@divisor+2,w
-  3434  0065  0276               	subwf	___llmod@dividend+2,w
-  3435  0066  1D03               	skipz
-  3436  0067  286E               	goto	u67_25
-  3437  0068  0871               	movf	___llmod@divisor+1,w
-  3438  0069  0275               	subwf	___llmod@dividend+1,w
-  3439  006A  1D03               	skipz
-  3440  006B  286E               	goto	u67_25
-  3441  006C  0870               	movf	___llmod@divisor,w
-  3442  006D  0274               	subwf	___llmod@dividend,w
-  3443  006E                     u67_25:
-  3444  006E  1C03               	skipc
-  3445  006F  2871               	goto	u67_21
-  3446  0070  2872               	goto	u67_20
-  3447  0071                     u67_21:
-  3448  0071  287A               	goto	i1l2335
-  3449  0072                     u67_20:
-  3450  0072                     i1l2333:
-  3451  0072  0870               	movf	___llmod@divisor,w
-  3452  0073  02F4               	subwf	___llmod@dividend,f
-  3453  0074  0871               	movf	___llmod@divisor+1,w
-  3454  0075  3BF5               	subwfb	___llmod@dividend+1,f
-  3455  0076  0872               	movf	___llmod@divisor+2,w
-  3456  0077  3BF6               	subwfb	___llmod@dividend+2,f
-  3457  0078  0873               	movf	___llmod@divisor+3,w
-  3458  0079  3BF7               	subwfb	___llmod@dividend+3,f
-  3459  007A                     i1l2335:
-  3460  007A  3001               	movlw	1
-  3461  007B                     u68_25:
-  3462  007B  36F3               	lsrf	___llmod@divisor+3,f
-  3463  007C  0CF2               	rrf	___llmod@divisor+2,f
-  3464  007D  0CF1               	rrf	___llmod@divisor+1,f
-  3465  007E  0CF0               	rrf	___llmod@divisor,f
-  3466  007F  0B89               	decfsz	9,f
-  3467  0080  287B               	goto	u68_25
-  3468  0081                     i1l2337:
-  3469  0081  3001               	movlw	1
-  3470  0082  02F9               	subwf	___llmod@counter,f
-  3471  0083  1D03               	btfss	3,2
-  3472  0084  2886               	goto	u69_21
-  3473  0085  2887               	goto	u69_20
-  3474  0086                     u69_21:
-  3475  0086  2860               	goto	i1l2331
-  3476  0087                     u69_20:
-  3477  0087                     i1l2339:
-  3478  0087  0877               	movf	___llmod@dividend+3,w
-  3479  0088  00F3               	movwf	?___llmod+3
-  3480  0089  0876               	movf	___llmod@dividend+2,w
-  3481  008A  00F2               	movwf	?___llmod+2
-  3482  008B  0875               	movf	___llmod@dividend+1,w
-  3483  008C  00F1               	movwf	?___llmod+1
-  3484  008D  0874               	movf	___llmod@dividend,w
-  3485  008E  00F0               	movwf	?___llmod
-  3486  008F                     i1l1187:
-  3487  008F  0008               	return
-  3488  0090                     __end_of___llmod:
-  3489                           
-  3490                           	psect	text20
-  3491  0175                     __ptext20:	
-  3492 ;; *************** function _TMR1_WriteTimer *****************
-  3493 ;; Defined at:
-  3494 ;;		line 120 in file "mcc_generated_files/tmr1.c"
-  3495 ;; Parameters:    Size  Location     Type
-  3496 ;;  timerVal        2    0[COMMON] unsigned short 
-  3497 ;; Auto vars:     Size  Location     Type
-  3498 ;;		None
-  3499 ;; Return value:  Size  Location     Type
-  3500 ;;                  1    wreg      void 
-  3501 ;; Registers used:
-  3502 ;;		wreg, status,2
-  3503 ;; Tracked objects:
-  3504 ;;		On entry : 0/0
-  3505 ;;		On exit  : 0/0
-  3506 ;;		Unchanged: 0/0
-  3507 ;; Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4
-  3508 ;;      Params:         2       0       0       0       0       0
-  3509 ;;      Locals:         0       0       0       0       0       0
-  3510 ;;      Temps:          0       0       0       0       0       0
-  3511 ;;      Totals:         2       0       0       0       0       0
-  3512 ;;Total ram usage:        2 bytes
-  3513 ;; Hardware stack levels used: 1
-  3514 ;; This function calls:
-  3515 ;;		Nothing
-  3516 ;; This function is called by:
-  3517 ;;		_TMR1_ISR
-  3518 ;;		_TMR1_Reload
-  3519 ;; This function uses a non-reentrant model
-  3520 ;;
-  3521                           
-  3522                           
-  3523                           ;psect for function _TMR1_WriteTimer
-  3524  0175                     _TMR1_WriteTimer:
-  3525  0175                     i1l2431:	
-  3526                           ;incstack = 0
-  3527                           ; Regs used in _TMR1_WriteTimer: [wreg+status,2]
-  3528                           
-  3529                           
-  3530                           ;mcc_generated_files/tmr1.c: 120: void TMR1_WriteTimer(uint16_t timerVal);mcc_generated_
+  3349  00C5  3001               	movlw	1
+  3350  00C6  00FA               	movwf	??_update_counter
+  3351  00C7  087A               	movf	??_update_counter,w
+  3352  00C8  00C1               	movwf	_time_elapsed	;volatile
+  3353  00C9                     i1l798:
+  3354  00C9  0008               	return
+  3355  00CA                     __end_of_update_counter:
+  3356                           
+  3357                           	psect	text19
+  3358  0046                     __ptext19:	
+  3359 ;; *************** function ___llmod *****************
+  3360 ;; Defined at:
+  3361 ;;		line 5 in file "/opt/microchip/xc8/v2.32/pic/sources/c99/common/llmod.c"
+  3362 ;; Parameters:    Size  Location     Type
+  3363 ;;  divisor         4    0[COMMON] unsigned long 
+  3364 ;;  dividend        4    4[COMMON] unsigned long 
+  3365 ;; Auto vars:     Size  Location     Type
+  3366 ;;  counter         1    9[COMMON] unsigned char 
+  3367 ;; Return value:  Size  Location     Type
+  3368 ;;                  4    0[COMMON] unsigned long 
+  3369 ;; Registers used:
+  3370 ;;		wreg, status,2, status,0
+  3371 ;; Tracked objects:
+  3372 ;;		On entry : 0/0
+  3373 ;;		On exit  : 0/0
+  3374 ;;		Unchanged: 0/0
+  3375 ;; Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4
+  3376 ;;      Params:         8       0       0       0       0       0
+  3377 ;;      Locals:         1       0       0       0       0       0
+  3378 ;;      Temps:          1       0       0       0       0       0
+  3379 ;;      Totals:        10       0       0       0       0       0
+  3380 ;;Total ram usage:       10 bytes
+  3381 ;; Hardware stack levels used: 1
+  3382 ;; This function calls:
+  3383 ;;		Nothing
+  3384 ;; This function is called by:
+  3385 ;;		_update_counter
+  3386 ;; This function uses a non-reentrant model
+  3387 ;;
+  3388                           
+  3389                           
+  3390                           ;psect for function ___llmod
+  3391  0046                     ___llmod:
+  3392  0046                     i1l2323:	
+  3393                           ;incstack = 0
+  3394                           ; Regs used in ___llmod: [wreg+status,2+status,0]
+  3395                           
+  3396  0046  0873               	movf	___llmod@divisor+3,w
+  3397  0047  0472               	iorwf	___llmod@divisor+2,w
+  3398  0048  0471               	iorwf	___llmod@divisor+1,w
+  3399  0049  0470               	iorwf	___llmod@divisor,w
+  3400  004A  1903               	skipnz
+  3401  004B  284D               	goto	u64_21
+  3402  004C  284E               	goto	u64_20
+  3403  004D                     u64_21:
+  3404  004D  2887               	goto	i1l2339
+  3405  004E                     u64_20:
+  3406  004E                     i1l2325:
+  3407  004E  01F9               	clrf	___llmod@counter
+  3408  004F  0AF9               	incf	___llmod@counter,f
+  3409  0050  285C               	goto	i1l2329
+  3410  0051                     i1l2327:
+  3411  0051  3001               	movlw	1
+  3412  0052                     u65_25:
+  3413  0052  35F0               	lslf	___llmod@divisor,f
+  3414  0053  0DF1               	rlf	___llmod@divisor+1,f
+  3415  0054  0DF2               	rlf	___llmod@divisor+2,f
+  3416  0055  0DF3               	rlf	___llmod@divisor+3,f
+  3417  0056  0B89               	decfsz	9,f
+  3418  0057  2852               	goto	u65_25
+  3419  0058  3001               	movlw	1
+  3420  0059  00F8               	movwf	??___llmod
+  3421  005A  0878               	movf	??___llmod,w
+  3422  005B  07F9               	addwf	___llmod@counter,f
+  3423  005C                     i1l2329:
+  3424  005C  1FF3               	btfss	___llmod@divisor+3,7
+  3425  005D  285F               	goto	u66_21
+  3426  005E  2860               	goto	u66_20
+  3427  005F                     u66_21:
+  3428  005F  2851               	goto	i1l2327
+  3429  0060                     u66_20:
+  3430  0060                     i1l2331:
+  3431  0060  0873               	movf	___llmod@divisor+3,w
+  3432  0061  0277               	subwf	___llmod@dividend+3,w
+  3433  0062  1D03               	skipz
+  3434  0063  286E               	goto	u67_25
+  3435  0064  0872               	movf	___llmod@divisor+2,w
+  3436  0065  0276               	subwf	___llmod@dividend+2,w
+  3437  0066  1D03               	skipz
+  3438  0067  286E               	goto	u67_25
+  3439  0068  0871               	movf	___llmod@divisor+1,w
+  3440  0069  0275               	subwf	___llmod@dividend+1,w
+  3441  006A  1D03               	skipz
+  3442  006B  286E               	goto	u67_25
+  3443  006C  0870               	movf	___llmod@divisor,w
+  3444  006D  0274               	subwf	___llmod@dividend,w
+  3445  006E                     u67_25:
+  3446  006E  1C03               	skipc
+  3447  006F  2871               	goto	u67_21
+  3448  0070  2872               	goto	u67_20
+  3449  0071                     u67_21:
+  3450  0071  287A               	goto	i1l2335
+  3451  0072                     u67_20:
+  3452  0072                     i1l2333:
+  3453  0072  0870               	movf	___llmod@divisor,w
+  3454  0073  02F4               	subwf	___llmod@dividend,f
+  3455  0074  0871               	movf	___llmod@divisor+1,w
+  3456  0075  3BF5               	subwfb	___llmod@dividend+1,f
+  3457  0076  0872               	movf	___llmod@divisor+2,w
+  3458  0077  3BF6               	subwfb	___llmod@dividend+2,f
+  3459  0078  0873               	movf	___llmod@divisor+3,w
+  3460  0079  3BF7               	subwfb	___llmod@dividend+3,f
+  3461  007A                     i1l2335:
+  3462  007A  3001               	movlw	1
+  3463  007B                     u68_25:
+  3464  007B  36F3               	lsrf	___llmod@divisor+3,f
+  3465  007C  0CF2               	rrf	___llmod@divisor+2,f
+  3466  007D  0CF1               	rrf	___llmod@divisor+1,f
+  3467  007E  0CF0               	rrf	___llmod@divisor,f
+  3468  007F  0B89               	decfsz	9,f
+  3469  0080  287B               	goto	u68_25
+  3470  0081                     i1l2337:
+  3471  0081  3001               	movlw	1
+  3472  0082  02F9               	subwf	___llmod@counter,f
+  3473  0083  1D03               	btfss	3,2
+  3474  0084  2886               	goto	u69_21
+  3475  0085  2887               	goto	u69_20
+  3476  0086                     u69_21:
+  3477  0086  2860               	goto	i1l2331
+  3478  0087                     u69_20:
+  3479  0087                     i1l2339:
+  3480  0087  0877               	movf	___llmod@dividend+3,w
+  3481  0088  00F3               	movwf	?___llmod+3
+  3482  0089  0876               	movf	___llmod@dividend+2,w
+  3483  008A  00F2               	movwf	?___llmod+2
+  3484  008B  0875               	movf	___llmod@dividend+1,w
+  3485  008C  00F1               	movwf	?___llmod+1
+  3486  008D  0874               	movf	___llmod@dividend,w
+  3487  008E  00F0               	movwf	?___llmod
+  3488  008F                     i1l1187:
+  3489  008F  0008               	return
+  3490  0090                     __end_of___llmod:
+  3491                           
+  3492                           	psect	text20
+  3493  0177                     __ptext20:	
+  3494 ;; *************** function _TMR1_WriteTimer *****************
+  3495 ;; Defined at:
+  3496 ;;		line 120 in file "mcc_generated_files/tmr1.c"
+  3497 ;; Parameters:    Size  Location     Type
+  3498 ;;  timerVal        2    0[COMMON] unsigned short 
+  3499 ;; Auto vars:     Size  Location     Type
+  3500 ;;		None
+  3501 ;; Return value:  Size  Location     Type
+  3502 ;;                  1    wreg      void 
+  3503 ;; Registers used:
+  3504 ;;		wreg, status,2
+  3505 ;; Tracked objects:
+  3506 ;;		On entry : 0/0
+  3507 ;;		On exit  : 0/0
+  3508 ;;		Unchanged: 0/0
+  3509 ;; Data sizes:     COMMON   BANK0   BANK1   BANK2   BANK3   BANK4
+  3510 ;;      Params:         2       0       0       0       0       0
+  3511 ;;      Locals:         0       0       0       0       0       0
+  3512 ;;      Temps:          0       0       0       0       0       0
+  3513 ;;      Totals:         2       0       0       0       0       0
+  3514 ;;Total ram usage:        2 bytes
+  3515 ;; Hardware stack levels used: 1
+  3516 ;; This function calls:
+  3517 ;;		Nothing
+  3518 ;; This function is called by:
+  3519 ;;		_TMR1_ISR
+  3520 ;;		_TMR1_Reload
+  3521 ;; This function uses a non-reentrant model
+  3522 ;;
+  3523                           
+  3524                           
+  3525                           ;psect for function _TMR1_WriteTimer
+  3526  0177                     _TMR1_WriteTimer:
+  3527  0177                     i1l2431:	
+  3528                           ;incstack = 0
+  3529                           ; Regs used in _TMR1_WriteTimer: [wreg+status,2]
+  3530                           
+  3531                           
+  3532                           ;mcc_generated_files/tmr1.c: 120: void TMR1_WriteTimer(uint16_t timerVal);mcc_generated_
       +                          files/tmr1.c: 121: {;mcc_generated_files/tmr1.c: 122:     if (T1CONbits.nT1SYNC == 1)
-  3531  0175  0020               	movlb	0	; select bank0
-  3532  0176  1D18               	btfss	24,2	;volatile
-  3533  0177  2979               	goto	u70_21
-  3534  0178  297A               	goto	u70_20
-  3535  0179                     u70_21:
-  3536  0179  2981               	goto	i1l2441
-  3537  017A                     u70_20:
-  3538  017A                     i1l2433:
-  3539                           
-  3540                           ;mcc_generated_files/tmr1.c: 123:     {;mcc_generated_files/tmr1.c: 125:         T1CONbi
+  3533  0177  0020               	movlb	0	; select bank0
+  3534  0178  1D18               	btfss	24,2	;volatile
+  3535  0179  297B               	goto	u70_21
+  3536  017A  297C               	goto	u70_20
+  3537  017B                     u70_21:
+  3538  017B  2983               	goto	i1l2441
+  3539  017C                     u70_20:
+  3540  017C                     i1l2433:
+  3541                           
+  3542                           ;mcc_generated_files/tmr1.c: 123:     {;mcc_generated_files/tmr1.c: 125:         T1CONbi
       +                          ts.TMR1ON = 0;
-  3541  017A  1018               	bcf	24,0	;volatile
-  3542  017B                     i1l2435:
-  3543                           
-  3544                           ;mcc_generated_files/tmr1.c: 128:         TMR1H = (uint8_t)(timerVal >> 8);
-  3545  017B  0871               	movf	TMR1_WriteTimer@timerVal+1,w
-  3546  017C  0097               	movwf	23	;volatile
-  3547  017D                     i1l2437:
-  3548                           
-  3549                           ;mcc_generated_files/tmr1.c: 129:         TMR1L = (uint8_t)timerVal;
-  3550  017D  0870               	movf	TMR1_WriteTimer@timerVal,w
-  3551  017E  0096               	movwf	22	;volatile
-  3552  017F                     i1l2439:
-  3553                           
-  3554                           ;mcc_generated_files/tmr1.c: 132:         T1CONbits.TMR1ON =1;
-  3555  017F  1418               	bsf	24,0	;volatile
-  3556                           
-  3557                           ;mcc_generated_files/tmr1.c: 133:     }
-  3558  0180  2985               	goto	i1l759
-  3559  0181                     i1l2441:
-  3560                           
-  3561                           ;mcc_generated_files/tmr1.c: 135:     {;mcc_generated_files/tmr1.c: 137:         TMR1H =
+  3543  017C  1018               	bcf	24,0	;volatile
+  3544  017D                     i1l2435:
+  3545                           
+  3546                           ;mcc_generated_files/tmr1.c: 128:         TMR1H = (uint8_t)(timerVal >> 8);
+  3547  017D  0871               	movf	TMR1_WriteTimer@timerVal+1,w
+  3548  017E  0097               	movwf	23	;volatile
+  3549  017F                     i1l2437:
+  3550                           
+  3551                           ;mcc_generated_files/tmr1.c: 129:         TMR1L = (uint8_t)timerVal;
+  3552  017F  0870               	movf	TMR1_WriteTimer@timerVal,w
+  3553  0180  0096               	movwf	22	;volatile
+  3554  0181                     i1l2439:
+  3555                           
+  3556                           ;mcc_generated_files/tmr1.c: 132:         T1CONbits.TMR1ON =1;
+  3557  0181  1418               	bsf	24,0	;volatile
+  3558                           
+  3559                           ;mcc_generated_files/tmr1.c: 133:     }
+  3560  0182  2987               	goto	i1l759
+  3561  0183                     i1l2441:
+  3562                           
+  3563                           ;mcc_generated_files/tmr1.c: 135:     {;mcc_generated_files/tmr1.c: 137:         TMR1H =
       +                           (uint8_t)(timerVal >> 8);
-  3562  0181  0871               	movf	TMR1_WriteTimer@timerVal+1,w
-  3563  0182  0097               	movwf	23	;volatile
-  3564  0183                     i1l2443:
-  3565                           
-  3566                           ;mcc_generated_files/tmr1.c: 138:         TMR1L = (uint8_t)timerVal;
-  3567  0183  0870               	movf	TMR1_WriteTimer@timerVal,w
-  3568  0184  0096               	movwf	22	;volatile
-  3569  0185                     i1l759:
-  3570  0185  0008               	return
-  3571  0186                     __end_of_TMR1_WriteTimer:
-  3572  007E                     btemp	set	126	;btemp
-  3573  007E                     int$flags	set	126
-  3574  007E                     wtemp0	set	126
-  3575                           
-  3576                           	psect	config
+  3564  0183  0871               	movf	TMR1_WriteTimer@timerVal+1,w
+  3565  0184  0097               	movwf	23	;volatile
+  3566  0185                     i1l2443:
+  3567                           
+  3568                           ;mcc_generated_files/tmr1.c: 138:         TMR1L = (uint8_t)timerVal;
+  3569  0185  0870               	movf	TMR1_WriteTimer@timerVal,w
+  3570  0186  0096               	movwf	22	;volatile
+  3571  0187                     i1l759:
+  3572  0187  0008               	return
+  3573  0188                     __end_of_TMR1_WriteTimer:
+  3574  007E                     btemp	set	126	;btemp
+  3575  007E                     int$flags	set	126
+  3576  007E                     wtemp0	set	126
   3577                           
-  3578                           ;Config register CONFIG1 @ 0x8007
-  3579                           ;	Oscillator Selection
-  3580                           ;	FOSC = INTOSC, INTOSC oscillator: I/O function on CLKIN pin
-  3581                           ;	Watchdog Timer Enable
-  3582                           ;	WDTE = OFF, WDT disabled
-  3583                           ;	Power-up Timer Enable
-  3584                           ;	PWRTE = OFF, PWRT disabled
-  3585                           ;	MCLR Pin Function Select
-  3586                           ;	MCLRE = ON, MCLR/VPP pin function is MCLR
-  3587                           ;	Flash Program Memory Code Protection
-  3588                           ;	CP = OFF, Program memory code protection is disabled
-  3589                           ;	Data Memory Code Protection
-  3590                           ;	CPD = OFF, Data memory code protection is disabled
-  3591                           ;	Brown-out Reset Enable
-  3592                           ;	BOREN = ON, Brown-out Reset enabled
-  3593                           ;	Clock Out Enable
-  3594                           ;	CLKOUTEN = OFF, CLKOUT function is disabled. I/O or oscillator function on the CLKOUT 
+  3578                           	psect	config
+  3579                           
+  3580                           ;Config register CONFIG1 @ 0x8007
+  3581                           ;	Oscillator Selection
+  3582                           ;	FOSC = INTOSC, INTOSC oscillator: I/O function on CLKIN pin
+  3583                           ;	Watchdog Timer Enable
+  3584                           ;	WDTE = OFF, WDT disabled
+  3585                           ;	Power-up Timer Enable
+  3586                           ;	PWRTE = OFF, PWRT disabled
+  3587                           ;	MCLR Pin Function Select
+  3588                           ;	MCLRE = ON, MCLR/VPP pin function is MCLR
+  3589                           ;	Flash Program Memory Code Protection
+  3590                           ;	CP = OFF, Program memory code protection is disabled
+  3591                           ;	Data Memory Code Protection
+  3592                           ;	CPD = OFF, Data memory code protection is disabled
+  3593                           ;	Brown-out Reset Enable
+  3594                           ;	BOREN = ON, Brown-out Reset enabled
+  3595                           ;	Clock Out Enable
+  3596                           ;	CLKOUTEN = OFF, CLKOUT function is disabled. I/O or oscillator function on the CLKOUT 
       +                          pin
-  3595                           ;	Internal/External Switchover
-  3596                           ;	IESO = ON, Internal/External Switchover mode is enabled
-  3597                           ;	Fail-Safe Clock Monitor Enable
-  3598                           ;	FCMEN = ON, Fail-Safe Clock Monitor is enabled
-  3599  8007                     	org	32775
-  3600  8007  3FE4               	dw	16356
-  3601                           
-  3602                           ;Config register CONFIG2 @ 0x8008
-  3603                           ;	Flash Memory Self-Write Protection
-  3604                           ;	WRT = OFF, Write protection off
-  3605                           ;	PLL Enable
-  3606                           ;	PLLEN = OFF, 4x PLL disabled
-  3607                           ;	Stack Overflow/Underflow Reset Enable
-  3608                           ;	STVREN = ON, Stack Overflow or Underflow will cause a Reset
-  3609                           ;	Brown-out Reset Voltage Selection
-  3610                           ;	BORV = LO, Brown-out Reset Voltage (Vbor), low trip point selected.
-  3611                           ;	Low-Voltage Programming Enable
-  3612                           ;	LVP = OFF, High-voltage on MCLR/VPP must be used for programming
-  3613  8008                     	org	32776
-  3614  8008  1EFF               	dw	7935
+  3597                           ;	Internal/External Switchover
+  3598                           ;	IESO = ON, Internal/External Switchover mode is enabled
+  3599                           ;	Fail-Safe Clock Monitor Enable
+  3600                           ;	FCMEN = ON, Fail-Safe Clock Monitor is enabled
+  3601  8007                     	org	32775
+  3602  8007  3FE4               	dw	16356
+  3603                           
+  3604                           ;Config register CONFIG2 @ 0x8008
+  3605                           ;	Flash Memory Self-Write Protection
+  3606                           ;	WRT = OFF, Write protection off
+  3607                           ;	PLL Enable
+  3608                           ;	PLLEN = OFF, 4x PLL disabled
+  3609                           ;	Stack Overflow/Underflow Reset Enable
+  3610                           ;	STVREN = ON, Stack Overflow or Underflow will cause a Reset
+  3611                           ;	Brown-out Reset Voltage Selection
+  3612                           ;	BORV = LO, Brown-out Reset Voltage (Vbor), low trip point selected.
+  3613                           ;	Low-Voltage Programming Enable
+  3614                           ;	LVP = OFF, High-voltage on MCLR/VPP must be used for programming
+  3615  8008                     	org	32776
+  3616  8008  1EFF               	dw	7935
 
 Data Sizes:
     Strings     0
@@ -3695,10 +3697,10 @@ Pointer List with Targets:
 		 -> i2c_read1ByteRegister@d2(COMMON[1]), i2c_write1ByteRegister@data(COMMON[1]), NULL(NULL[0]), 
 
     TMR1_SetInterruptHandler@InterruptHandler	PTR FTN()void  size(2) Largest target is 1
-		 -> toggle_LED(), TMR1_DefaultInterruptHandler(), 
+		 -> update_counter(), TMR1_DefaultInterruptHandler(), 
 
     TMR1_InterruptHandler	PTR FTN()void  size(2) Largest target is 1
-		 -> toggle_LED(), TMR1_DefaultInterruptHandler(), Absolute function(), 
+		 -> update_counter(), TMR1_DefaultInterruptHandler(), Absolute function(), 
 
     S660$data_ptr	PTR unsigned char  size(1) Largest target is 4
 		 -> I2C1_ReadDataBlock@reg(COMMON[1]), I2C1_ReadDataBlock@bufferBlock(COMMON[3]), I2C1_Write2ByteRegister@reg(COMMON[1]), I2C1_Write2ByteRegister@data(COMMON[2]), 
@@ -3767,8 +3769,8 @@ Critical Paths under _main in COMMON
 
 Critical Paths under _INTERRUPT_InterruptManager in COMMON
 
-    _TMR1_ISR->_toggle_LED
-    _toggle_LED->___llmod
+    _TMR1_ISR->_update_counter
+    _update_counter->___llmod
 
 Critical Paths under _main in BANK0
 
@@ -3876,9 +3878,9 @@ Call Graph Tables:
                    Absolute function *
        _TMR1_DefaultInterruptHandler *
                     _TMR1_WriteTimer
-                         _toggle_LED *
+                     _update_counter *
  ---------------------------------------------------------------------------------
- (6) _toggle_LED                                           1     1      0     311
+ (6) _update_counter                                       1     1      0     311
                                              10 COMMON     1     1      0
                             ___llmod
  ---------------------------------------------------------------------------------
@@ -3917,7 +3919,7 @@ Call Graph Tables:
      Absolute function(Fake) *
      _TMR1_DefaultInterruptHandler *
      _TMR1_WriteTimer *
-     _toggle_LED *
+     _update_counter *
        ___llmod
    _TMR4_ISR
      Absolute function(Fake) *
@@ -4011,68 +4013,69 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.32 build 20210201212658 
-Symbol Table                                                                                   Sat Jun 19 09:55:33 2021
+Symbol Table                                                                                   Sun Jun 20 11:28:36 2021
 
-                                             l301 01C4                                               l222 014A  
-                                             l252 011A                                               l255 01B8  
-                                             l258 01D2                                               l436 01A9  
-                                             l279 0174                                               l745 0133  
-                                             l683 01A0                                               l748 01D5  
-                                             l775 01CA                                               l699 01B1  
-                                             _PR2 001B                                               _PR4 0416  
-                                             u790 00FE                                               u791 00FD  
-                                 _timer1ReloadVal 007B                                   _TMR2_Initialize 01AA  
-                                             wreg 0009                              _I2C1_DO_RX_NACK_STOP 0000  
-                                            l2321 01C5                                              l2401 0167  
-                                            l2411 01AE                                              l2403 0169  
-                                            l2421 0121                                              l2413 01AF  
-                                            l2405 0171                                              l2351 013D  
-                                            l2343 0134                                              l2423 0122  
-                                            l2415 011B                                              l2407 01AA  
-                                            l2319 01BF                                              l2361 0147  
-                                            l2353 0140                                              l2345 0137  
-                                            l2425 0126                                              l2417 011D  
-                                            l2409 01AD                                              l2371 01A8  
-                                            l2363 0149                                              l2355 0142  
-                                            l2347 0138                                              l2427 0128  
-                                            l2419 011F                                              l2381 0194  
-                                            l2365 01A1                                              l2373 01B2  
-                                            l2357 0144                                              l2349 013B  
-                                            l2429 0130                                              l2453 0102  
-                                            l2391 019D                                              l2383 0197  
-                                            l2367 01A3                                              l2375 01B5  
-                                            l2359 0145                                              l2393 019E  
-                                            l2385 0198                                              l2369 01A5  
-                                            l2377 01B6                                              l2387 019A  
-                                            l2395 0161                                              l2379 01CF  
-                                            l2491 00F6                                              l2389 019C  
-                                            l2397 0164                                              l2469 01D3  
-                                            l2493 00F7                                              l2485 00E8  
-                                            l2399 0165                                              l2495 00F8  
-                                            l2487 00EB                                              l2497 00FE  
-                                            l2489 00EE                                              _LATA 010C  
-                                            _LATB 010D                                              _TMR2 001A  
-                                            _TMR4 0415                                              _WPUA 020C  
-                                            _WPUB 020D                                              _main 00E8  
-                                            fsr0h 0005                                              indf0 0000  
-                                            fsr0l 0004                                              btemp 007E  
-                                            start 0028                        ??_TMR1_SetInterruptHandler 004C  
-                      ??_TMR4_SetInterruptHandler 004C                    __size_of_OSCILLATOR_Initialize 0007  
-                   __end_of_OSCILLATOR_Initialize 01B9                                             ?_main 0070  
-                                 _TMR1_StartTimer 01D3                                             _T1CON 0018  
+                                  _update_counter 0090                                               l301 01C6  
+                                             l222 014C                                               l252 011C  
+                                             l255 01BA                                               l258 01D4  
+                                             l436 01AB                                               l279 0176  
+                                             l745 0135                                               l683 01A2  
+                                             l748 01D7                                               l775 01CC  
+                                             l699 01B3                                               _PR2 001B  
+                                             _PR4 0416                                               u790 0100  
+                                             u791 00FF                                   _timer1ReloadVal 007B  
+                                 _TMR2_Initialize 01AC                                               wreg 0009  
+                            _I2C1_DO_RX_NACK_STOP 0000                                              l2321 01C7  
+                                            l2401 0169                                              l2411 01B0  
+                                            l2403 016B                                              l2421 0123  
+                                            l2413 01B1                                              l2405 0173  
+                                            l2351 013F                                              l2343 0136  
+                                            l2423 0124                                              l2415 011D  
+                                            l2407 01AC                                              l2319 01C1  
+                                            l2361 0149                                              l2353 0142  
+                                            l2345 0139                                              l2425 0128  
+                                            l2417 011F                                              l2409 01AF  
+                                            l2371 01AA                                              l2363 014B  
+                                            l2355 0144                                              l2347 013A  
+                                            l2427 012A                                              l2419 0121  
+                                            l2381 0196                                              l2365 01A3  
+                                            l2373 01B4                                              l2357 0146  
+                                            l2349 013D                                              l2429 0132  
+                                            l2453 0104                                              l2391 019F  
+                                            l2383 0199                                              l2367 01A5  
+                                            l2375 01B7                                              l2359 0147  
+                                            l2393 01A0                                              l2385 019A  
+                                            l2369 01A7                                              l2377 01B8  
+                                            l2387 019C                                              l2395 0163  
+                                            l2379 01D1                                              l2491 00F8  
+                                            l2389 019E                                              l2397 0166  
+                                            l2469 01D5                                              l2493 00F9  
+                                            l2485 00EA                                              l2399 0167  
+                                            l2495 00FA                                              l2487 00ED  
+                                            l2497 0100                                              l2489 00F0  
+                                            _LATA 010C                                              _LATB 010D  
+                                            _TMR2 001A                                              _TMR4 0415  
+                                            _WPUA 020C                                              _WPUB 020D  
+                                            _main 00EA                                              fsr0h 0005  
+                                            indf0 0000                                              fsr0l 0004  
+                                            btemp 007E                                              start 0028  
+                      ??_TMR1_SetInterruptHandler 004C                        ??_TMR4_SetInterruptHandler 004C  
+                          __end_of_update_counter 00CA                    __size_of_OSCILLATOR_Initialize 0007  
+                   __end_of_OSCILLATOR_Initialize 01BB                                             ?_main 0070  
+                                 _TMR1_StartTimer 01D5                                             _T1CON 0018  
                                  __end_of___llmod 0090                                             _T2CON 001C  
-                                           _T4CON 0417                                             i1l304 01D6  
+                                           _T4CON 0417                                             i1l304 01D8  
                                            i1l324 0018                                             i1l325 0026  
-                                           i1l329 0026                                             i1l298 0193  
-                                           i1l772 0160                                             i1l759 0185  
-                                           i1l778 01D7                                             i1l798 00C7  
-                      __end_of_i2c1_fsmStateTable 00E8                                             _TMR1H 0017  
-                                           _TMR1L 0016                                             u70_20 017A  
-                                           u70_21 0179                                             u71_20 00C5  
+                                           i1l329 0026                                             i1l298 0195  
+                                           i1l772 0162                                             i1l759 0187  
+                                           i1l778 01D9                                             i1l798 00C9  
+                      __end_of_i2c1_fsmStateTable 00EA                                             _TMR1H 0017  
+                                           _TMR1L 0016                                             u70_20 017C  
+                                           u70_21 017B                                             u71_20 00C5  
                                            u71_21 00C4                                             u64_20 004E  
-                                           u72_20 018E                                             u64_21 004D  
-                                           u72_21 018D                                             u73_20 015B  
-                                           u73_21 015A                                             _TRISA 008C  
+                                           u72_20 0190                                             u64_21 004D  
+                                           u72_21 018F                                             u73_20 015D  
+                                           u73_21 015C                                             _TRISA 008C  
                                            _TRISB 008D                                             u65_25 0052  
                                            u66_20 0060                                             u74_20 000A  
                                            u66_21 005F                                             u74_21 0009  
@@ -4083,115 +4086,115 @@ Symbol Table                                                                    
                                            u69_20 0087                                             u77_20 001D  
                                            u69_21 0086                                             u77_21 001C  
                                            u78_20 0022                                             u78_21 0021  
-                                 _TMR4_Initialize 0161                                 ??_I2C1_Initialize 004A  
-                                __end_of_TMR1_ISR 0161                                  __end_of_TMR4_ISR 0194  
-                                  _WDT_Initialize 01CF                           __end_of_TMR1_Initialize 0134  
+                                 _TMR4_Initialize 0163                                 ??_I2C1_Initialize 004A  
+                                __end_of_TMR1_ISR 0163                                  __end_of_TMR4_ISR 0196  
+                                  _WDT_Initialize 01D1                           __end_of_TMR1_Initialize 0136  
                                            pclath 000A                                             status 0003  
-                                           wtemp0 007E                                   _TMR1_WriteTimer 0175  
-                                 __initialization 002A                                      __end_of_main 0102  
-                         __end_of_TMR2_Initialize 01B2                       ?_INTERRUPT_InterruptManager 0070  
-                                          ??_main 004C                            __end_of_WDT_Initialize 01D3  
-                                ___llmod@dividend 0074                                            _CCPR1H 0292  
-                                          _CCPR1L 0291                                            _ANSELA 018C  
-                                          _ANSELB 018D                                            _BORCON 0116  
-                                          _T1GCON 0019                           TMR1_WriteTimer@timerVal 0070  
-                                          i1l1187 008F                                            i1l2331 0060  
-                                          i1l2323 0046                                            i1l2333 0072  
-                                          i1l2325 004E                                            i1l2431 0175  
-                                          i1l2335 007A                                            i1l2327 0051  
-                                          i1l2433 017A                                            i1l2441 0181  
-                                          i1l2337 0081                                            i1l2329 005C  
-                                          i1l2443 0183                                            i1l2435 017B  
-                                          i1l2339 0087                                            i1l2451 00C5  
-                                          i1l2437 017D                                            i1l2445 0090  
-                                          i1l2461 014B                                            i1l2439 017F  
-                                          i1l2447 009C                                            i1l2463 014D  
-                                          i1l2455 0186                                            i1l2471 0006  
-                                          i1l2449 00BD                                            i1l2465 0154  
-                                          i1l2457 0188                                            i1l2481 0022  
-                                          i1l2473 000A                                            i1l2467 015B  
-                                          i1l2459 018E                                            i1l2475 000F  
-                                          i1l2477 0014                                            i1l2479 001D  
-                                          _OSCCON 0099                                            _WDTCON 0097  
-                                _I2C1_DO_TX_EMPTY 0000              __end_of_TMR1_DefaultInterruptHandler 01D8  
-           __size_of_TMR1_DefaultInterruptHandler 0001                      _TMR1_DefaultInterruptHandler 01D7  
-                                    _CCPTMRS0bits 029E                           __end_of_TMR1_StartTimer 01D6  
-                                       ??___llmod 0078                           __end_of_TMR4_Initialize 0175  
-            __end_of_TMR4_DefaultInterruptHandler 01D7             __size_of_TMR4_DefaultInterruptHandler 0001  
-                    _TMR4_DefaultInterruptHandler 01D6                             _I2C1_DO_SEND_ADR_READ 0000  
-                                 ?_WDT_Initialize 0070          TMR1_SetInterruptHandler@InterruptHandler 004A  
-        TMR4_SetInterruptHandler@InterruptHandler 004A                           __end_of_TMR1_WriteTimer 0186  
-                         _I2C1_DO_RX_NACK_RESTART 0000                                  ?_TMR1_Initialize 0070  
-                               _SYSTEM_Initialize 0102                           __end_of__initialization 0042  
-                              ?_SYSTEM_Initialize 0070                           _rdBlkRegCompleteHandler 0000  
-                               ?_EPWM1_Initialize 0070                                    __pcstackCOMMON 0070  
-                                    __pidataBANK0 01CB                               ??_SYSTEM_Initialize 004C  
-                                       ?_TMR1_ISR 0070                     ?_TMR1_DefaultInterruptHandler 0070  
-                                       ?_TMR4_ISR 0070                                ??_EPWM1_Initialize 004A  
-                                ?_TMR2_Initialize 0070                                    _OPTION_REGbits 0095  
-                   ?_TMR4_DefaultInterruptHandler 0070                         __end_of_SYSTEM_Initialize 011B  
-                                      __pbssBANK0 0020                                        __pnvCOMMON 007B  
-                           _TMR4_InterruptHandler 0044                             _rd1RegCompleteHandler 0000  
-                               _I2C1_DO_SEND_STOP 0000                             _wr1RegCompleteHandler 0000  
-                                      __pmaintext 00E8                                  ?_TMR1_StartTimer 0070  
-                                      ??_TMR1_ISR 007B                                        ??_TMR4_ISR 0070  
-                                      __pintentry 0004                                   _I2C1_Initialize 01A1  
-                                         _CCP1CON 0293                                           _ECCP1AS 0295  
-                                ?_TMR4_Initialize 0070                                           _APFCON0 011D  
-                                         _APFCON1 011E                                           _OSCTUNE 0098  
-                                         _PWM1CON 0294                                           _SSP1ADD 0212  
-                                         _SSP1BUF 0211                                  ?_TMR1_WriteTimer 0070  
-                              _i2c1_fsmStateTable 00C8    _rd1RegCompleteHandler@i2c1_master_example$F143 0000  
-  _wr1RegCompleteHandler@i2c1_master_example$F160 0000    _rd2RegCompleteHandler@i2c1_master_example$F154 0000  
-  _wr2RegCompleteHandler@i2c1_master_example$F166 0000  _rdBlkRegCompleteHandler@i2c1_master_example$F177 0000  
-                                         ___llmod 0046                                           __ptext1 01D3  
-                                         __ptext2 0102                                           __ptext3 01CF  
-                                         __ptext4 0161                                           __ptext5 01BF  
-                                         __ptext6 01AA                                           __ptext7 011B  
-                                         __ptext8 01C5                                           __ptext9 0134  
+                                           wtemp0 007E                                   _TMR1_WriteTimer 0177  
+                                 __initialization 002A                                      __end_of_main 0104  
+                                 ?_update_counter 0070                           __end_of_TMR2_Initialize 01B4  
+                     ?_INTERRUPT_InterruptManager 0070                                            ??_main 004C  
+                          __end_of_WDT_Initialize 01D5                                  ___llmod@dividend 0074  
+                                          _CCPR1H 0292                                            _CCPR1L 0291  
+                                          _ANSELA 018C                                            _ANSELB 018D  
+                                          _BORCON 0116                                            _T1GCON 0019  
+                         TMR1_WriteTimer@timerVal 0070                                            i1l1187 008F  
+                                          i1l2331 0060                                            i1l2323 0046  
+                                          i1l2333 0072                                            i1l2325 004E  
+                                          i1l2431 0177                                            i1l2335 007A  
+                                          i1l2327 0051                                            i1l2433 017C  
+                                          i1l2441 0183                                            i1l2337 0081  
+                                          i1l2329 005C                                            i1l2443 0185  
+                                          i1l2435 017D                                            i1l2339 0087  
+                                          i1l2451 00C5                                            i1l2437 017F  
+                                          i1l2445 0090                                            i1l2461 014D  
+                                          i1l2439 0181                                            i1l2447 009C  
+                                          i1l2463 014F                                            i1l2455 0188  
+                                          i1l2471 0006                                            i1l2449 00BD  
+                                          i1l2465 0156                                            i1l2457 018A  
+                                          i1l2481 0022                                            i1l2473 000A  
+                                          i1l2467 015D                                            i1l2459 0190  
+                                          i1l2475 000F                                            i1l2477 0014  
+                                          i1l2479 001D                                            _OSCCON 0099  
+                                          _WDTCON 0097                                  _I2C1_DO_TX_EMPTY 0000  
+            __end_of_TMR1_DefaultInterruptHandler 01DA             __size_of_TMR1_DefaultInterruptHandler 0001  
+                    _TMR1_DefaultInterruptHandler 01D9                                      _CCPTMRS0bits 029E  
+                         __end_of_TMR1_StartTimer 01D8                                         ??___llmod 0078  
+                         __end_of_TMR4_Initialize 0177              __end_of_TMR4_DefaultInterruptHandler 01D9  
+           __size_of_TMR4_DefaultInterruptHandler 0001                      _TMR4_DefaultInterruptHandler 01D8  
+                           _I2C1_DO_SEND_ADR_READ 0000                                   ?_WDT_Initialize 0070  
+        TMR1_SetInterruptHandler@InterruptHandler 004A          TMR4_SetInterruptHandler@InterruptHandler 004A  
+                         __end_of_TMR1_WriteTimer 0188                           _I2C1_DO_RX_NACK_RESTART 0000  
+                                ?_TMR1_Initialize 0070                                 _SYSTEM_Initialize 0104  
+                         __end_of__initialization 0042                                ?_SYSTEM_Initialize 0070  
+                         _rdBlkRegCompleteHandler 0000                                 ?_EPWM1_Initialize 0070  
+                                  __pcstackCOMMON 0070                                      __pidataBANK0 01CD  
+                             ??_SYSTEM_Initialize 004C                                         ?_TMR1_ISR 0070  
+                   ?_TMR1_DefaultInterruptHandler 0070                                         ?_TMR4_ISR 0070  
+                              ??_EPWM1_Initialize 004A                                  ?_TMR2_Initialize 0070  
+                                  _OPTION_REGbits 0095                     ?_TMR4_DefaultInterruptHandler 0070  
+                       __end_of_SYSTEM_Initialize 011D                                        __pbssBANK0 0020  
+                                      __pnvCOMMON 007B                             _TMR4_InterruptHandler 0044  
+                           _rd1RegCompleteHandler 0000                                 _I2C1_DO_SEND_STOP 0000  
+                           _wr1RegCompleteHandler 0000                                        __pmaintext 00EA  
+                                ?_TMR1_StartTimer 0070                                        ??_TMR1_ISR 007B  
+                                      ??_TMR4_ISR 0070                                        __pintentry 0004  
+                                 _I2C1_Initialize 01A3                                           _CCP1CON 0293  
+                                         _ECCP1AS 0295                                  ?_TMR4_Initialize 0070  
+                                         _APFCON0 011D                                           _APFCON1 011E  
+                                         _OSCTUNE 0098                                           _PWM1CON 0294  
+                                         _SSP1ADD 0212                                           _SSP1BUF 0211  
+                                ?_TMR1_WriteTimer 0070                                _i2c1_fsmStateTable 00CA  
+  _rd1RegCompleteHandler@i2c1_master_example$F143 0000    _wr1RegCompleteHandler@i2c1_master_example$F160 0000  
+  _rd2RegCompleteHandler@i2c1_master_example$F154 0000    _wr2RegCompleteHandler@i2c1_master_example$F166 0000  
+_rdBlkRegCompleteHandler@i2c1_master_example$F177 0000                                  ??_update_counter 007A  
+                                         ___llmod 0046                                           __ptext1 01D5  
+                                         __ptext2 0104                                           __ptext3 01D1  
+                                         __ptext4 0163                                           __ptext5 01C1  
+                                         __ptext6 01AC                                           __ptext7 011D  
+                                         __ptext8 01C7                                           __ptext9 0136  
                   ??_TMR1_DefaultInterruptHandler 0070                                         _T1CONbits 0018  
-                                         _counter 003D                             _OSCILLATOR_Initialize 01B2  
+                                         _counter 003D                             _OSCILLATOR_Initialize 01B4  
                                        _T2CONbits 001C                 __size_of_TMR1_SetInterruptHandler 0006  
                                        _T4CONbits 0417                          ??_PIN_MANAGER_Initialize 004A  
                __size_of_TMR4_SetInterruptHandler 0006                         ?_TMR1_SetInterruptHandler 004A  
                        ?_TMR4_SetInterruptHandler 004A                        __size_of_SYSTEM_Initialize 0019  
-                                         clrloop0 01BA                              end_of_initialization 0042  
+                                         clrloop0 01BC                              end_of_initialization 0042  
                   ??_TMR4_DefaultInterruptHandler 0070                            _I2C1_DO_SEND_ADR_WRITE 0000  
-                         __end_of_I2C1_Initialize 01AA                                       _I2C1_Status 0020  
+                         __end_of_I2C1_Initialize 01AC                                       _I2C1_Status 0020  
                       _I2C1_DO_SEND_RESTART_WRITE 0000                                  ??_WDT_Initialize 004A  
-                                      _toggle_LED 0090                                    _I2C1_DO_RX_ACK 0000  
-                               __size_of_TMR1_ISR 0016                                 __size_of_TMR4_ISR 000E  
-                          ?_OSCILLATOR_Initialize 0070                               start_initialization 002A  
-                       __size_of_EPWM1_Initialize 000D                   __size_of_PIN_MANAGER_Initialize 0017  
-                                 ___llmod@divisor 0070                                   ___llmod@counter 0079  
-                                ?_I2C1_Initialize 0070                          __size_of_TMR1_Initialize 0019  
-                                     __pdataBANK0 0046                                       ?_toggle_LED 0070  
+                                  _I2C1_DO_RX_ACK 0000                                 __size_of_TMR1_ISR 0016  
+                               __size_of_TMR4_ISR 000E                            ?_OSCILLATOR_Initialize 0070  
+                             start_initialization 002A                         __size_of_EPWM1_Initialize 000D  
+                 __size_of_PIN_MANAGER_Initialize 0017                                   ___llmod@divisor 0070  
+                                 ___llmod@counter 0079                                  ?_I2C1_Initialize 0070  
+                        __size_of_TMR1_Initialize 0019                                       __pdataBANK0 0046  
                             _I2C1_DO_SEND_RESTART 0000                                         ___latbits 0001  
                                    __pcstackBANK0 004A                          __size_of_TMR2_Initialize 0008  
                                        __pnvBANK0 0042                             _rd2RegCompleteHandler 0000  
-                          _PIN_MANAGER_Initialize 0134                             _wr2RegCompleteHandler 0000  
-                __end_of_TMR1_SetInterruptHandler 01CB                  __end_of_TMR4_SetInterruptHandler 01C5  
+                          _PIN_MANAGER_Initialize 0136                             _wr2RegCompleteHandler 0000  
+                __end_of_TMR1_SetInterruptHandler 01CD                  __end_of_TMR4_SetInterruptHandler 01C7  
                                         ?___llmod 0070                      ??_INTERRUPT_InterruptManager 007B  
                         __size_of_TMR1_StartTimer 0003                          __size_of_TMR4_Initialize 0014  
                                         _LATAbits 010C                                        _I2C1_DO_RX 0000  
-                                      _I2C1_DO_TX 0000                                         clear_ram0 01B9  
+                                      _I2C1_DO_TX 0000                                         clear_ram0 01BB  
                                         _PIE1bits 0091                                          _PIE3bits 0093  
-                        __size_of_TMR1_WriteTimer 0011                               __size_of_toggle_LED 0038  
-             __size_of_INTERRUPT_InterruptManager 0024                                          _PIR1bits 0011  
-                                        _PIR2bits 0012                                          _PIR3bits 0013  
-                       _I2C1_DO_SEND_RESTART_READ 0000                                          _SSP1CON1 0215  
-                                        _SSP1CON2 0216                                          _TMR1_ISR 014B  
-                                        _TMR4_ISR 0186                                          _PSTR1CON 0296  
-                                        _SSP1STAT 0214                                 ??_TMR1_Initialize 004C  
-                                _EPWM1_Initialize 0194                                     _I2C1_DO_RESET 0000  
-                               ??_TMR2_Initialize 004A                           ??_OSCILLATOR_Initialize 004A  
-                                __size_of___llmod 004A                          _TMR1_SetInterruptHandler 01C5  
-                        _TMR4_SetInterruptHandler 01BF                             _TMR1_InterruptHandler 0042  
-                                        __ptext10 01B2                                          __ptext11 01A1  
-                                        __ptext20 0175                                          __ptext12 0194  
-                                      _T1GCONbits 0019                                          __ptext14 0186  
-                                        __ptext15 01D6                                          __ptext16 014B  
-                                        __ptext17 01D7                                          __ptext18 0090  
+                        __size_of_TMR1_WriteTimer 0011               __size_of_INTERRUPT_InterruptManager 0024  
+                                        _PIR1bits 0011                                          _PIR2bits 0012  
+                                        _PIR3bits 0013                         _I2C1_DO_SEND_RESTART_READ 0000  
+                                        _SSP1CON1 0215                                          _SSP1CON2 0216  
+                                        _TMR1_ISR 014D                                          _TMR4_ISR 0188  
+                                        _PSTR1CON 0296                                          _SSP1STAT 0214  
+                               ??_TMR1_Initialize 004C                                  _EPWM1_Initialize 0196  
+                                   _I2C1_DO_RESET 0000                                 ??_TMR2_Initialize 004A  
+                         ??_OSCILLATOR_Initialize 004A                                  __size_of___llmod 004A  
+                        _TMR1_SetInterruptHandler 01C7                          _TMR4_SetInterruptHandler 01C1  
+                         __size_of_update_counter 003A                             _TMR1_InterruptHandler 0042  
+                                        __ptext10 01B4                                          __ptext11 01A3  
+                                        __ptext20 0177                                          __ptext12 0196  
+                                      _T1GCONbits 0019                                          __ptext14 0188  
+                                        __ptext15 01D8                                          __ptext16 014D  
+                                        __ptext17 01D9                                          __ptext18 0090  
                                         __ptext19 0046                                      _SSP1CON1bits 0215  
                                     _SSP1CON2bits 0216                                 ??_TMR1_StartTimer 004A  
                         _I2C1_CallbackReturnReset 0000                                 ??_TMR4_Initialize 004C  
@@ -4199,11 +4202,10 @@ Symbol Table                                                                    
               __end_of_INTERRUPT_InterruptManager 0028                        _INTERRUPT_InterruptManager 0004  
                                     _SSP1STATbits 0214                                 ??_TMR1_WriteTimer 0072  
                                     _I2C1_DO_IDLE 0000                                      _I2C1_DO_RCEN 0000  
-                                    ??_toggle_LED 007A                                        _INTCONbits 000B  
-                                    _time_elapsed 0041                           __size_of_WDT_Initialize 0004  
-                                        intlevel1 0000                           ?_PIN_MANAGER_Initialize 0070  
-                         _I2C1_CallbackReturnStop 0000                                      _waiting_time 0046  
-                            _I2C1_DO_ADDRESS_NACK 0000                                __end_of_toggle_LED 00C8  
-                        __size_of_I2C1_Initialize 0009                                     __pstringtext1 00C8  
-                  __end_of_PIN_MANAGER_Initialize 014B                                   _TMR1_Initialize 011B  
-                        __end_of_EPWM1_Initialize 01A1  
+                                      _INTCONbits 000B                                      _time_elapsed 0041  
+                         __size_of_WDT_Initialize 0004                                          intlevel1 0000  
+                         ?_PIN_MANAGER_Initialize 0070                           _I2C1_CallbackReturnStop 0000  
+                                    _waiting_time 0046                              _I2C1_DO_ADDRESS_NACK 0000  
+                        __size_of_I2C1_Initialize 0009                                     __pstringtext1 00CA  
+                  __end_of_PIN_MANAGER_Initialize 014D                                   _TMR1_Initialize 011D  
+                        __end_of_EPWM1_Initialize 01A3  

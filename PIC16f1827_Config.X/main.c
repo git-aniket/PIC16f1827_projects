@@ -40,6 +40,11 @@
     OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
     SOFTWARE.
 */
+/*
+ * The application generates an interrupt every one minute using timer1 as base.
+ Timer1 by itself can generate interrupts of 4 seconds only. This value has
+ been multiplied to get interrupts corresponding to multiples of 4s.
+ */
 
 #include "mcc_generated_files/mcc.h"
 #include "stdbool.h"
@@ -52,11 +57,11 @@
 
 /*Variables*/
 static uint32_t waiting_time=ONE_MINUTE;
-static uint32_t counter=0;
-static bool time_elapsed=false;
+static volatile uint32_t counter=0;
+static volatile bool time_elapsed=false;
 
 
-void toggle_LED(void)
+void update_counter(void)
 {
     LATAbits.LATA1^=1;
     counter=(counter+1)%waiting_time;
@@ -73,7 +78,7 @@ void main(void)
     SYSTEM_Initialize();
     TMR1_StartTimer();
     //TMR4_StartTimer();
-    TMR1_SetInterruptHandler(toggle_LED);
+    TMR1_SetInterruptHandler(update_counter);
     //TMR4_SetInterruptHandler(toggle_LED);
     //TMR0_SetInterruptHandler(toggle_LED);
     // When using interrupts, you need to set the Global and Peripheral Interrupt Enable bits
