@@ -41,10 +41,37 @@
     SOFTWARE.
 */
 
-/*
+/* Author: Aniket Mazumder
+ * (c) 2021 Aniket Mazumder
+ * MIT License
+
+    Copyright (c) 2021 Aniket Mazumder
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+ * 
+ * Description:
  * This application reads data from the BH1750 Light Sensor and switches on the 
  * pump according to set time and runs a pump everyday for a fixed period set
  * by ALLOWED_PUMP_RUNNING_DURATION
+ * Change the value in day_counter variable in timer1 ISR to set a desired 
+ * timer reset for the clock.
+ * Verify the cut of values for the light sensor for your application.
  */
 
 #include "mcc_generated_files/mcc.h"
@@ -62,7 +89,7 @@
 #define ONE_DAY 24*ONE_HOUR
 
 #define ALLOWED_PUMP_RUNNING_DURATION EIGHT_SEC
-#define CUT_OFF_LIGHT_INTENSITY 60
+#define CUT_OFF_LIGHT_INTENSITY 100
 
 /*Interrupt flags*/
 static volatile bool time_elapsed=false;
@@ -88,8 +115,8 @@ void update_flags_get_data_i2c1(void)
     if(T1_interrupt_counter==0)
         flag_read_light_sensor=true;
     
-    /*Resets every day*/
-    day_counter=(day_counter+1)%ONE_DAY;
+    /*Select the reset duration*/
+    day_counter=(day_counter+1)%ONE_MINUTE;
     if(day_counter==0)
         flag_new_day=true;        
     
@@ -137,7 +164,8 @@ void main(void)
         if(flag_read_light_sensor==true)
         {
             flag_read_light_sensor=false;
-            light_intensity=read_Light_Sensor();                           
+            light_intensity=read_Light_Sensor();     
+            //PUMP_CONTROL_PIN_Toggle();
 
 	    if(light_intensity<CUT_OFF_LIGHT_INTENSITY)
 	    {
@@ -151,7 +179,7 @@ void main(void)
 	    }
         }
 
-	/*Switch off pump after running for the ALLOWED_PUMP_RUNNING_DURATION*/
+//	/*Switch off pump after running for the ALLOWED_PUMP_RUNNING_DURATION*/
 	if(flag_pump_on==true && pump_running_time_counter>=ALLOWED_PUMP_RUNNING_DURATION)
 	{
 	    flag_pump_on=false;
