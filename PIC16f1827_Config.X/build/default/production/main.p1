@@ -510,99 +510,99 @@ Version 4.0 HI-TECH Software Intermediate Code
 "6748
 [; ;/home/aniket/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8/pic/include/proc/pic16f1827.h: 6748: __asm("TOSH equ 0FEFh");
 [; <" TOSH equ 0FEFh ;# ">
-"54 main.c
-[; ;main.c: 54: static uint32_t waiting_time=15;
+"59 main.c
+[; ;main.c: 59: static uint32_t waiting_time=15;
 [v _waiting_time `ul ~T0 @X0 1 s ]
 [i _waiting_time
 -> -> -> 15 `i `l `ul
 ]
-"55
-[; ;main.c: 55: static volatile uint32_t counter=0;
+"60
+[; ;main.c: 60: static volatile uint32_t counter=0;
 [v _counter `Vul ~T0 @X0 1 s ]
 [i _counter
 -> -> -> 0 `i `l `ul
 ]
-"56
-[; ;main.c: 56: static volatile _Bool time_elapsed=0;
+"61
+[; ;main.c: 61: static volatile _Bool time_elapsed=0;
 [v _time_elapsed `Va ~T0 @X0 1 s ]
 [i _time_elapsed
 -> -> 0 `i `a
 ]
-"59
-[; ;main.c: 59: void update_counter(void)
+"64
+[; ;main.c: 64: void update_counter(void)
 [v _update_counter `(v ~T0 @X0 1 ef ]
-"60
-[; ;main.c: 60: {
+"65
+[; ;main.c: 65: {
 {
 [e :U _update_counter ]
 [f ]
-"61
-[; ;main.c: 61:     LATAbits.LATA1^=1;
+"66
+[; ;main.c: 66:     LATAbits.LATA1^=1;
 [e =^ . . _LATAbits 0 1 -> -> 1 `i `Vuc ]
-"62
-[; ;main.c: 62:     counter=(counter+1)%waiting_time;
+"67
+[; ;main.c: 67:     counter=(counter+1)%waiting_time;
 [e = _counter % + _counter -> -> -> 1 `i `l `ul _waiting_time ]
-"63
-[; ;main.c: 63:     if(counter==0)
+"68
+[; ;main.c: 68:     if(counter==0)
 [e $ ! == _counter -> -> -> 0 `i `l `ul 357  ]
-"64
-[; ;main.c: 64:         time_elapsed=1;
+"69
+[; ;main.c: 69:         time_elapsed=1;
 [e = _time_elapsed -> -> 1 `i `a ]
 [e :U 357 ]
-"65
-[; ;main.c: 65: }
+"70
+[; ;main.c: 70: }
 [e :UE 356 ]
 }
 [v $root$_main `(v ~T0 @X0 0 e ]
-"70
-[; ;main.c: 70: void main(void)
+"75
+[; ;main.c: 75: void main(void)
 [v _main `(v ~T0 @X0 1 ef ]
-"71
-[; ;main.c: 71: {
+"76
+[; ;main.c: 76: {
 {
 [e :U _main ]
 [f ]
-"73
-[; ;main.c: 73:     SYSTEM_Initialize();
+"78
+[; ;main.c: 78:     SYSTEM_Initialize();
 [e ( _SYSTEM_Initialize ..  ]
-"74
-[; ;main.c: 74:     TMR1_StartTimer();
+"79
+[; ;main.c: 79:     TMR1_StartTimer();
 [e ( _TMR1_StartTimer ..  ]
-"76
-[; ;main.c: 76:     TMR1_SetInterruptHandler(update_counter);
+"81
+[; ;main.c: 81:     TMR1_SetInterruptHandler(update_counter);
 [e ( _TMR1_SetInterruptHandler (1 &U _update_counter ]
-"83
-[; ;main.c: 83:     (INTCONbits.GIE = 1);
+"88
+[; ;main.c: 88:     (INTCONbits.GIE = 1);
 [e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
-"86
-[; ;main.c: 86:     (INTCONbits.PEIE = 1);
+"91
+[; ;main.c: 91:     (INTCONbits.PEIE = 1);
 [e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
-"94
-[; ;main.c: 94:     while (1)
-[e :U 360 ]
-"95
-[; ;main.c: 95:     {
-{
-"98
-[; ;main.c: 98:         if(time_elapsed)
-[e $ ! != -> _time_elapsed `i -> 0 `i 362  ]
 "99
-[; ;main.c: 99:         {
-{
+[; ;main.c: 99:     while (1)
+[e :U 360 ]
 "100
-[; ;main.c: 100:             time_elapsed=0;
+[; ;main.c: 100:     {
+{
+"103
+[; ;main.c: 103:         if(time_elapsed)
+[e $ ! != -> _time_elapsed `i -> 0 `i 362  ]
+"104
+[; ;main.c: 104:         {
+{
+"105
+[; ;main.c: 105:             time_elapsed=0;
 [e = _time_elapsed -> -> 0 `i `a ]
-"101
-[; ;main.c: 101:         }
+"106
+[; ;main.c: 106:         }
 }
 [e :U 362 ]
-"102
-[; ;main.c: 102:     }
+"107
+[; ;main.c: 107:     }
 }
 [e :U 359 ]
 [e $U 360  ]
 [e :U 361 ]
-"104
-[; ;main.c: 104: }
+"109
+[; ;main.c: 109: }
 [e :UE 358 ]
 }

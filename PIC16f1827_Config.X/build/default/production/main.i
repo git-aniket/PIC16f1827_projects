@@ -7,7 +7,7 @@
 # 1 "/home/aniket/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8/pic/include/language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "main.c" 2
-# 44 "main.c"
+# 49 "main.c"
 # 1 "./mcc_generated_files/mcc.h" 1
 # 49 "./mcc_generated_files/mcc.h"
 # 1 "/home/aniket/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8/pic/include/xc.h" 1 3
@@ -4656,8 +4656,8 @@ void SYSTEM_Initialize(void);
 void OSCILLATOR_Initialize(void);
 # 101 "./mcc_generated_files/mcc.h"
 void WDT_Initialize(void);
-# 45 "main.c" 2
-# 54 "main.c"
+# 50 "main.c" 2
+# 59 "main.c"
 static uint32_t waiting_time=15;
 static volatile uint32_t counter=0;
 static volatile _Bool time_elapsed=0;

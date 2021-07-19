@@ -82,11 +82,10 @@ void main(void)
 {
     // initialize the device
     SYSTEM_Initialize();
-    //TMR1_StartTimer();
+    TMR1_StartTimer();
     TMR4_StartTimer();
-    //TMR1_SetInterruptHandler(toggle_LED);
-    TMR4_SetInterruptHandler(update_flag_get_data_i2c1);
-    //TMR0_SetInterruptHandler(toggle_LED);
+    TMR1_SetInterruptHandler(update_flag_get_data_i2c1);
+    //TMR4_SetInterruptHandler(update_flag_get_data_i2c1);
     // When using interrupts, you need to set the Global and Peripheral Interrupt Enable bits
     // Use the following macros to:
 
@@ -95,12 +94,6 @@ void main(void)
 
     // Enable the Peripheral Interrupts
     INTERRUPT_PeripheralInterruptEnable();
-
-    // Disable the Global Interrupts
-    //INTERRUPT_GlobalInterruptDisable();
-
-    // Disable the Peripheral Interrupts
-    //INTERRUPT_PeripheralInterruptDisable();
 
     while (1)
     {

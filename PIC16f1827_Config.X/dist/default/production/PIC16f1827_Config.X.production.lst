@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.32 build 20210201212658 
-                                                                                               Sun Jun 20 11:28:36 2021
+                                                                                               Wed Jun 30 11:19:23 2021
 
 Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1 
      1                           	processor	16F1827
@@ -2050,7 +2050,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2036 ;;
   2037 ;; *************** function _main *****************
   2038 ;; Defined at:
-  2039 ;;		line 70 in file "main.c"
+  2039 ;;		line 75 in file "main.c"
   2040 ;; Parameters:    Size  Location     Type
   2041 ;;		None
   2042 ;; Auto vars:     Size  Location     Type
@@ -2087,15 +2087,15 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2073                           ; Regs used in _main: [wreg+status,2+status,0+pclath+cstack]
   2074                           
   2075                           
-  2076                           ;main.c: 73:     SYSTEM_Initialize();
+  2076                           ;main.c: 78:     SYSTEM_Initialize();
   2077  00EA  3181  2104  3180   	fcall	_SYSTEM_Initialize
   2078  00ED                     l2487:
   2079                           
-  2080                           ;main.c: 74:     TMR1_StartTimer();
+  2080                           ;main.c: 79:     TMR1_StartTimer();
   2081  00ED  3181  21D5  3180   	fcall	_TMR1_StartTimer
   2082  00F0                     l2489:
   2083                           
-  2084                           ;main.c: 76:     TMR1_SetInterruptHandler(update_counter);
+  2084                           ;main.c: 81:     TMR1_SetInterruptHandler(update_counter);
   2085  00F0  3090               	movlw	low _update_counter
   2086  00F1  0020               	movlb	0	; select bank0
   2087  00F2  00CA               	movwf	TMR1_SetInterruptHandler@InterruptHandler
@@ -2104,15 +2104,15 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2090  00F5  3181  21C7  3180   	fcall	_TMR1_SetInterruptHandler
   2091  00F8                     l2491:
   2092                           
-  2093                           ;main.c: 83:     (INTCONbits.GIE = 1);
+  2093                           ;main.c: 88:     (INTCONbits.GIE = 1);
   2094  00F8  178B               	bsf	11,7	;volatile
   2095  00F9                     l2493:
   2096                           
-  2097                           ;main.c: 86:     (INTCONbits.PEIE = 1);
+  2097                           ;main.c: 91:     (INTCONbits.PEIE = 1);
   2098  00F9  170B               	bsf	11,6	;volatile
   2099  00FA                     l2495:
   2100                           
-  2101                           ;main.c: 95:     {;main.c: 98:         if(time_elapsed)
+  2101                           ;main.c: 100:     {;main.c: 103:         if(time_elapsed)
   2102  00FA  0020               	movlb	0	; select bank0
   2103  00FB  0841               	movf	_time_elapsed,w	;volatile
   2104  00FC  1903               	btfsc	3,2
@@ -2123,7 +2123,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   2109  0100                     u790:
   2110  0100                     l2497:
   2111                           
-  2112                           ;main.c: 99:         {;main.c: 100:             time_elapsed=0;
+  2112                           ;main.c: 104:         {;main.c: 105:             time_elapsed=0;
   2113  0100  01C1               	clrf	_time_elapsed	;volatile
   2114  0101  28FA               	goto	l2495
   2115  0102  3180  2828         	ljmp	start
@@ -3268,7 +3268,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3246  0090                     __ptext18:	
   3247 ;; *************** function _update_counter *****************
   3248 ;; Defined at:
-  3249 ;;		line 59 in file "main.c"
+  3249 ;;		line 64 in file "main.c"
   3250 ;; Parameters:    Size  Location     Type
   3251 ;;		None
   3252 ;; Auto vars:     Size  Location     Type
@@ -3305,7 +3305,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3283                           ; Regs used in _update_counter: [wreg+status,2+status,0+pclath+cstack]
   3284                           
   3285                           
-  3286                           ;main.c: 61:     LATAbits.LATA1^=1;
+  3286                           ;main.c: 66:     LATAbits.LATA1^=1;
   3287  0090  0022               	movlb	2	; select bank2
   3288  0091  0C0C               	rrf	12,w	;volatile
   3289  0092  3901               	andlw	1
@@ -3320,7 +3320,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3298  009B  008C               	movwf	12	;volatile
   3299  009C                     i1l2447:
   3300                           
-  3301                           ;main.c: 62:     counter=(counter+1)%waiting_time;
+  3301                           ;main.c: 67:     counter=(counter+1)%waiting_time;
   3302  009C  0020               	movlb	0	; select bank0
   3303  009D  0849               	movf	_waiting_time+3,w
   3304  009E  00F3               	movwf	___llmod@divisor+3
@@ -3354,7 +3354,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3332  00BC  00BD               	movwf	_counter	;volatile
   3333  00BD                     i1l2449:
   3334                           
-  3335                           ;main.c: 63:     if(counter==0)
+  3335                           ;main.c: 68:     if(counter==0)
   3336  00BD  0840               	movf	_counter+3,w	;volatile
   3337  00BE  043F               	iorwf	_counter+2,w	;volatile
   3338  00BF  043E               	iorwf	_counter+1,w	;volatile
@@ -3367,7 +3367,7 @@ Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1
   3345  00C5                     u71_20:
   3346  00C5                     i1l2451:
   3347                           
-  3348                           ;main.c: 64:         time_elapsed=1;
+  3348                           ;main.c: 69:         time_elapsed=1;
   3349  00C5  3001               	movlw	1
   3350  00C6  00FA               	movwf	??_update_counter
   3351  00C7  087A               	movf	??_update_counter,w
@@ -4013,7 +4013,7 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V2.32 build 20210201212658 
-Symbol Table                                                                                   Sun Jun 20 11:28:36 2021
+Symbol Table                                                                                   Wed Jun 30 11:19:23 2021
 
                                   _update_counter 0090                                               l301 01C6  
                                              l222 014C                                               l252 011C  

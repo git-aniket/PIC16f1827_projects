@@ -411,7 +411,7 @@ stringtext1 194 1D3 STRCODE 194 0
 maintext 1D4 3B3 CODE 1D4 0
 %locals
 dist/default/production/PIC16f1827_Config.X.production.o
-/tmp/xcXKBLBLi.s
+/tmp/xcXjCacdm.s
 3582 2A 0 CODE 0
 3585 2A 0 CODE 0
 3611 2A 0 CODE 0
@@ -441,14 +441,14 @@ dist/default/production/PIC16f1827_Config.X.production.o
 3630 1BF 0 CODE 0
 3631 1C0 0 CODE 0
 main.c
-70 EA 0 CODE 0
-73 EA 0 CODE 0
-74 ED 0 CODE 0
-76 F0 0 CODE 0
-83 F8 0 CODE 0
-86 F9 0 CODE 0
-98 FA 0 CODE 0
-100 100 0 CODE 0
+75 EA 0 CODE 0
+78 EA 0 CODE 0
+79 ED 0 CODE 0
+81 F0 0 CODE 0
+88 F8 0 CODE 0
+91 F9 0 CODE 0
+103 FA 0 CODE 0
+105 100 0 CODE 0
 mcc_generated_files/tmr1.c
 93 1D5 0 CODE 0
 96 1D5 0 CODE 0
@@ -567,13 +567,13 @@ mcc_generated_files/tmr1.c
 175 1D9 0 CODE 0
 178 1D9 0 CODE 0
 main.c
-59 90 0 CODE 0
-61 90 0 CODE 0
-62 9C 0 CODE 0
-63 BD 0 CODE 0
-63 C1 0 CODE 0
-64 C5 0 CODE 0
-65 C9 0 CODE 0
+64 90 0 CODE 0
+66 90 0 CODE 0
+67 9C 0 CODE 0
+68 BD 0 CODE 0
+68 C1 0 CODE 0
+69 C5 0 CODE 0
+70 C9 0 CODE 0
 /opt/microchip/xc8/v2.32/pic/sources/c99/common/llmod.c
 5 46 0 CODE 0
 12 46 0 CODE 0
